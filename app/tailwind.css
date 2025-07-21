@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --color-usf-green: '#00543C';
+  --color-usf-yellow: '#f7b512';
+}
