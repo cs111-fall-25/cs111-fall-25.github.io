@@ -2,6 +2,7 @@
   "name": "client-website",
   "private": true,
   "type": "module",
+  "homepage": "https://cs111-fall-25.github.io",
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
