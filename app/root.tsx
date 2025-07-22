@@ -5,6 +5,7 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  HashRouter
 } from "react-router";
 import NotFoundPage from './not-found'; 
 
@@ -42,7 +43,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <Outlet />;
+  return <HashRouter><Outlet /></HashRouter>;
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
