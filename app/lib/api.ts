@@ -1,8 +1,8 @@
 import { type Assignment } from "@/interfaces";
 import axios from 'axios';
 
-const api_url = import.meta.env.VITE_API_URL || "https://localhost:8000";
-
+// const api_url = import.meta.env.VITE_API_URL || "https://localhost:8000";
+const api_url = import.meta.env.VITE_API_URL || "https://cs111-backend-api-hc2vq.ondigitalocean.app";
 export async function getAssignmentTypes() {
   const { data: { data }} = await axios.get(`${api_url}/assignments/types`);
   return data;
