@@ -24,6 +24,7 @@ const AssignmentSpecification = ({
           <p className="text-2xl text-center">{val.title}</p>
           <video className="w-screen" width="1024" controls >
           <source src={(val.link)}></source>
+          {/*<!-- Fix the issue with mobile -->*/}
           </video>
           </CarouselItem>
           )

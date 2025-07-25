@@ -16,7 +16,7 @@
     "topics": ["Setup", "Hello World", "Introduction to Java Fundamentals"],
     "assignments": [
       {
-        "name": "Setup",
+        "name": "setup",
         "type": "inclass"
       },
       {

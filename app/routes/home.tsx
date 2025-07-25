@@ -5,7 +5,7 @@ import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogFooter, Dialo
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "CS 111" },
+    { title: "CS 111 Course Page" },
     { name: "description", content: "CS 111 Class Page" },
   ];
 }
@@ -22,9 +22,9 @@ export default function Home() {
         <div className="w-1/4 flex flex-row">
         <Dialog>
         <DialogTrigger className="dark:bg-usf-green dark:text-usf-yellow bg-usf-yellow text-usf-green p-4 rounded-2xl">Course Syllabus</DialogTrigger>
-        <DialogContent className="max-w-screen w-full lg:min-w-[512pt]">
+        <DialogContent className="max-w-screen w-full ">
         <DialogHeader>Course Syllabus</DialogHeader>
-        <iframe width="100%" height="600pt" src="/assets/Syllabus.pdf#view=FitH" />
+        <iframe width="100%" height="100%" className="h-[75vh] " src="/assets/Syllabus.pdf" />
         <DialogFooter>
         <Button type="button" variant="default">
           <a href="/assets/Syllabus.pdf" download>Download</a>

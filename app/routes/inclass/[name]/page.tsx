@@ -13,7 +13,7 @@ import { DateTime } from 'luxon';
 const InclassAssignmentPage = () => {
   const params = useParams();
   const navigate = useNavigate();
-  const name = params.name ?? "";
+  const name = params.name?.toLowerCase() ?? "";
   const [details, setDetails] = useState<any>(null);
   const [content, setContent] = useState<any>(null);
   useEffect(() => {
