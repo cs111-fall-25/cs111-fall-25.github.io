@@ -5,7 +5,8 @@ import {
   PageContainer, 
   Collapsible, 
   CollapsibleTrigger, 
-  CollapsibleContent
+  CollapsibleContent,
+  PDFViewer
 } from "@/components";
 import { useState } from 'react'
 import { ChevronUp, ChevronDown } from 'lucide-react';
@@ -20,9 +21,10 @@ const Document = ({ name, iframeSrc }: { name: string, iframeSrc: string })  => 
     {name}
     </CollapsibleTrigger>
     <CollapsibleContent>
-    <div className="flex flex-row justify-center align-center py-5">
-    <iframe src={iframeSrc} height="600" width="100%" />
-    </div>
+    {/* <div className="flex flex-row justify-center align-center py-5"> */}
+    <PDFViewer src={iframeSrc} />
+    {/* <iframe src={iframeSrc} height="600" width="100%" /> */}
+    {/* </div> */}
     </CollapsibleContent>
     </Collapsible>
   )

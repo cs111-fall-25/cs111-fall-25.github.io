@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import { date_to_weekday } from './util';
 import type { ScheduleRowProps } from './types';
+import { useWindowDimensions } from '@/hooks';
 
 const format_assignment_name = (name: string, type: string) => {
   switch(type){
@@ -18,10 +19,12 @@ const format_assignment_name = (name: string, type: string) => {
 }
 
 const ScheduleRow = ({ date, topics, assignments, slides, special} : ScheduleRowProps) => {
+  const { width } = useWindowDimensions();
+  const dateString = date_to_weekday(date);
   return (
     <tr className="py-10" key={date}>
     <td className="w-1/10">{date}</td>
-    <td className="w-1/10">{date_to_weekday(date)}</td>
+    <td className="w-1/10">{width > 576 ? dateString : dateString[0]}</td>
     <td className="w-1/5 text-left">
     {
       special 

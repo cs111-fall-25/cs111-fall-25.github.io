@@ -1,5 +1,5 @@
 import type { Route } from "./+types/home";
-import { Navbar, Schedule, Footer, PageContainer, Container, Button } from '@/components/';
+import { Navbar, Schedule, Footer, PageContainer, Container, Button, PDFViewer } from '@/components/';
 
 import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogFooter, DialogClose } from '@/components';
 
@@ -19,12 +19,12 @@ export default function Home() {
           <p className="text-4xl py-5 font-bold">Welcome</p>
           <p className="text-lg">Welcome to CS 111: Foundation of Program Design for Fall 2025.</p>
         </div>
-        <div className="w-1/4 flex flex-row">
+        <div className=" flex flex-row">
         <Dialog>
         <DialogTrigger className="dark:bg-usf-green dark:text-usf-yellow bg-usf-yellow text-usf-green p-4 rounded-2xl">Course Syllabus</DialogTrigger>
-        <DialogContent className="max-w-screen w-full ">
+        <DialogContent className="align-center justify-center w-full min-w-[50vw] ">
         <DialogHeader>Course Syllabus</DialogHeader>
-        <iframe width="100%" height="100%" className="h-[75vh] " src="/assets/Syllabus.pdf" />
+        <PDFViewer src="/assets/Syllabus.pdf" />
         <DialogFooter>
         <Button type="button" variant="default">
           <a href="/assets/Syllabus.pdf" download>Download</a>

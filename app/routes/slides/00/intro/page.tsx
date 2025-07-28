@@ -7,7 +7,8 @@ import gradingTable from './img/grading-table.png';
 const IntroSlides = () => {
   return (
     <>
-    <Navbar />
+    {/* <Navbar /> */}
+    {/* Add download button */}
     <Slides>
     <section>
     <p className="text-usf-yellow">CS 111: Foundations of Program Design</p>
