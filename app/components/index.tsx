@@ -9,3 +9,4 @@ export * from './AssignmentSpecification';
 export * from './BackButton';
 export * from './Slides';
 export * from './PDFViewer';
+export * from './SlideComponents';

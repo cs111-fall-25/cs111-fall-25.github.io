@@ -17,11 +17,12 @@
     "assignments": [
       {
         "name": "setup",
-        "type": "inclass"
+        "type": "inclass",
+        "hidden": true
       },
       {
-        "name": "Printing-Output",
-        "type": "lab",
+        "name": "post-setup",
+        "type": "inclass",
         "hidden": true
       }
     ],

@@ -2,6 +2,7 @@
 import { useEffect, useRef } from 'react';
 import Reveal from "reveal.js";
 import "reveal.js/dist/reveal.css";
+import RevealNotes from 'reveal.js/plugin/notes/notes.esm.js';
 // import "reveal.js/dist/theme/moon.css";
 import "./usfca.scss";
 
@@ -13,11 +14,15 @@ const Slides = ({ children }: any) => {
     if (deckRef.current) return;
 
     deckRef.current = new Reveal(deckDivRef.current!, {
+      controls: true,
       transition: "slide",
       // other config options
     });
 
     deckRef.current.initialize().then(() => {
+      Reveal.initialize({
+        plugins: [RevealNotes]
+      })
       // good place for event handlers and plugin setups
     });
 

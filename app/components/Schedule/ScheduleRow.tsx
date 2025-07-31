@@ -52,9 +52,10 @@ const ScheduleRow = ({ date, topics, assignments, slides, special} : ScheduleRow
     <td className="w-1/5">
     <ol>
     {
-      // Add a modal open for the slide with the src being the link
-      slides.map((val: {name?: string, link?: string}, i) => (
+      slides.map((val: {name?: string, link?: string, hidden?: boolean}, i) => (
+        val?.name !== undefined && val?.link !== undefined && !val?. hidden ? (
         <li key={i}><a href={val?.link} target="_blank">{val?.name}</a></li>
+        ) : (<></>)
       ))
     }
     </ol>
