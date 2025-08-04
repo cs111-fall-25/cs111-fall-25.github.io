@@ -16,6 +16,7 @@ const Slides = ({ children }: any) => {
     deckRef.current = new Reveal(deckDivRef.current!, {
       controls: true,
       transition: "slide",
+      // hash: true,
       // other config options
     });
 

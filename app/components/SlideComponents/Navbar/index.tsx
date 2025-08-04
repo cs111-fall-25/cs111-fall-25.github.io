@@ -1,17 +1,16 @@
-import { useNavigate } from "react-router"
-import { ChevronLeft } from "lucide-react";
+import { BackButton } from "@/components/BackButton";
 
 const SlideNavbar = ({ title }: { title: string }) => {
-  const navigate = useNavigate(); 
 
   /*
-    * Should allow the user to go back
+    * Should allow the user to go back if there's a history to go back to.
      */
   return (
     <>
       <div className="flex flex-row justify-between px-5 py-10">
-      <button onClick={() => {navigate(-1)}}><ChevronLeft /></button>
+      <BackButton />
       <span className="text-xl">{title}</span>
+      <></>
       </div>
     </>
   )
