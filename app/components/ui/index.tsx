@@ -7,3 +7,4 @@ export * from './aspect-ratio';
 export * from './collapsible';
 export * from './carousel';
 export * from './dialog';
+export * from './spinner';

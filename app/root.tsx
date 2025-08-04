@@ -8,7 +8,7 @@ import {
   HashRouter
 } from "react-router";
 import NotFoundPage from './not-found'; 
-
+import LoadingPage from './loading';
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
@@ -44,6 +44,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
 export default function App() {
   return <Outlet />;
+}
+
+export function HydrateFallback(){
+  return <LoadingPage />;
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
