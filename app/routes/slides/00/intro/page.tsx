@@ -1,7 +1,6 @@
-import { Navbar, Slides } from '@/components';
+import { Slides, SlideNavbar } from '@/components';
 
-
-// Remove some fragments
+import introSlidesPdf from '@/static/slides/intro-slides.pdf'
 
 import usfca from './img/usfca.jpg';
 import nightskyline from './img/night-skyline-hong-kong.jpg'
@@ -14,8 +13,7 @@ import sailingIcon from './img/sailing.jpg';
 const IntroSlides = () => {
   return (
     <>
-    {/* <Navbar /> */}
-    {/* Add download button */}
+    <SlideNavbar title="Day 0: Introductions" downloadHref={introSlidesPdf} />
     <Slides>
     <section>
     <p className="text-usf-yellow">CS 111: Foundations of Program Design</p>

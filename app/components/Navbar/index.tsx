@@ -29,6 +29,12 @@ const Navbar = () => {
     <DropdownMenuItem>
     <NavLink to="/schedule">Schedule</NavLink>
     </DropdownMenuItem>
+    <DropdownMenuItem>
+    <NavLink to="/worksheets">Worksheets</NavLink>
+    </DropdownMenuItem>
+    <DropdownMenuItem>
+    <NavLink to="/resources">Resources</NavLink>
+    </DropdownMenuItem>
     </DropdownMenuContent>
     </DropdownMenu>
     </div>

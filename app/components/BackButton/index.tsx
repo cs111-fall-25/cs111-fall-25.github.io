@@ -5,8 +5,8 @@ const BackButton = () => {
   const navigate = useNavigate();
 
   return (
-    <button className="pr-5" onClick={() => navigate(-1)}>
-      <ChevronLeft />
+    <button className="pr-5 text-usf-yellow" onClick={() => navigate(-1)}>
+      <ChevronLeft size={50}/>
     </button>
   )
 }
