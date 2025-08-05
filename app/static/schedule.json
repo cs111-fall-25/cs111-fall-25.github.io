@@ -202,6 +202,12 @@
     "slides": []
   },
   {
+    "date": "12/1",
+    "topics":["Search Algorithms", "Sort Algorithms"],
+    "assignments": [],
+    "slides": []
+  },
+  {
     "date": "12/3",
     "topics":["Final Exam Review"],
     "assignments": [],
