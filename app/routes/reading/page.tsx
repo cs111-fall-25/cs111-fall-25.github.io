@@ -1,5 +1,4 @@
 import { Navbar, Container, PageContainer, Footer } from '@/components';
-import { Link } from 'react-router';
 import {
   Table,
   TableBody,
@@ -10,28 +9,28 @@ import {
 } from "@/components/ui/table"
 import { ChevronRight } from 'lucide-react';
 
-import variablesWorksheet from "./sheets/variables and data types.pdf"
-
-const WorksheetsPage = () => {
-  return <>
+const SuggestedReadingPage = () => {
+  return (
     <PageContainer>
       <Navbar />
       <Container className="flex-col">
-        <p className="text-3xl font-bold">Worksheets</p>
+        <p className="text-3xl font-bold">Suggested Reading</p>
         <div className="py-10 px-5 w-3/4">
         <Table className="text-xl">
         <TableHeader>
         <TableRow>
-        <TableHead>Name</TableHead>
-        <TableHead>Description</TableHead>
-        <TableHead>View</TableHead>
+        <TableHead>Week</TableHead>
+        <TableHead>Reading</TableHead>
         </TableRow>
         </TableHeader>
         <TableBody>
         {/* <TableRow> */}
-        {/* <TableCell>Variables and Data Types</TableCell> */}
-        {/* <TableCell>A worksheet to introduce and define variables and data types</TableCell> */}
-        {/* <TableCell><Link to={variablesWorksheet} target="_blank"><ChevronRight size={30}/></Link></TableCell> */}
+        {/* <TableCell> */}
+        {/* Week 1 */}
+        {/* </TableCell> */}
+        {/* <TableCell> */}
+        {/* None<br/>None */}
+        {/* </TableCell> */}
         {/* </TableRow> */}
         </TableBody>
         </Table>
@@ -39,7 +38,6 @@ const WorksheetsPage = () => {
       </Container>
       <Footer />
     </PageContainer>
-  </>
+  )
 }
-
-export default WorksheetsPage;
+export default SuggestedReadingPage;

@@ -1,14 +1,42 @@
-// List resources for students to access
+import { Navbar, Container, PageContainer, Footer } from '@/components';
+import { Link } from 'react-router';
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table"
+import { ChevronRight } from 'lucide-react';
 
-import { Navbar } from "@/components";
 const ResourcePage = () => {
   return (
-    <>
-    <Navbar />
-    <div className="bg-gray-950 flex justify-center items-center min-h-[88vh]">
-    <p className="text-2xl text-gray-100">Coming Soon</p>
-    </div>
-    </>
+    <PageContainer>
+      <Navbar />
+      <Container className="flex-col">
+        <p className="text-3xl font-bold">Resources</p>
+        <div className="py-10 px-5 w-3/4">
+        <Table className="text-xl">
+        <TableHeader>
+        <TableRow>
+        <TableHead>Name</TableHead>
+        <TableHead>Description</TableHead>
+        <TableHead>View</TableHead>
+        </TableRow>
+        </TableHeader>
+        <TableBody>
+        {/* <TableRow> */}
+        {/* <TableCell>Variables and Data Types</TableCell> */}
+        {/* <TableCell>A worksheet to introduce and define variables and data types</TableCell> */}
+        {/* <TableCell><Link to={variablesWorksheet} target="_blank"><ChevronRight size={30}/></Link></TableCell> */}
+        {/* </TableRow> */}
+        </TableBody>
+        </Table>
+        </div>
+      </Container>
+      <Footer />
+    </PageContainer>
   )
 }
 

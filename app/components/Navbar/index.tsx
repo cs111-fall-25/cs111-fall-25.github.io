@@ -35,6 +35,9 @@ const Navbar = () => {
     <DropdownMenuItem>
     <NavLink to="/resources">Resources</NavLink>
     </DropdownMenuItem>
+    <DropdownMenuItem>
+    <NavLink to="/reading">Suggested Reading</NavLink>
+    </DropdownMenuItem>
     </DropdownMenuContent>
     </DropdownMenu>
     </div>
