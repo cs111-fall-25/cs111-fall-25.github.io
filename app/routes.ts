@@ -10,6 +10,8 @@ export default [
   route("/labs/:name", "routes/labs/[name]/page.tsx"),
   route("/projects", "routes/projects/page.tsx"),
   route("/projects/:name", "routes/projects/[name]/page.tsx"),
+  route("/resources", "routes/resources/page.tsx"),
+  route("/worksheets", "routes/worksheets/page.tsx"),
   route("/slides", "routes/slides/page.tsx"),
   route("/slides/00/intro", "routes/slides/00/intro/page.tsx")
 ] satisfies RouteConfig;
