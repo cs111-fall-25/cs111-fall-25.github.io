@@ -197,9 +197,10 @@
   },
   {
     "date": "11/26",
-    "topics":["Command Line Arguments"],
+    "topics":["Command Line Arguments", "Recorded Lesson due to Day-before-Thanksgiving"],
     "assignments": [],
-    "slides": []
+    "slides": [],
+    "special": true
   },
   {
     "date": "12/1",
