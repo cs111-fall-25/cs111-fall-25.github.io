@@ -14,5 +14,6 @@ export default [
   route("/worksheets", "routes/worksheets/page.tsx"),
   route("/reading", "routes/reading/page.tsx"),
   route("/slides", "routes/slides/page.tsx"),
-  route("/slides/00/intro", "routes/slides/00/intro/page.tsx")
+  route("/slides/00", "routes/slides/00/page.tsx"),
+  route("/slides/01", "routes/slides/01/page.tsx")
 ] satisfies RouteConfig;

@@ -39,7 +39,7 @@ const IntroSlides = () => {
     </ul>
     <li>CS Major, Psych Minor, joined Dual Degree Teaching Program</li>
     <li>TA for C and Systems, Tutor in the Tutoring Center</li>
-      <li>Taught Mathematics at different Secondary Schools</li>
+    <li>Taught Mathematics at different Secondary Schools</li>
     <li>Helped various startups</li>
     <li>CoderSchool Management</li>
     <li>Solutions Architect at a current Startup</li>
@@ -48,19 +48,18 @@ const IntroSlides = () => {
     </section>
     <section>
     <p className="text-usf-yellow">Tech Interests</p>
-    <ul >
-
+    <ul>
     <li>Web Development</li>
     <li>System Design</li>
     <li>DevOps</li>
     <li>Programming Languages</li>
     <li>CS for All</li>
-      <li>Computer Science Education</li>
+    <li>Computer Science Education</li>
     </ul>
     </section>
     <section>
     <p className="text-usf-yellow">Hobbies</p>
-    <div className="r-hstack">
+    <div className="r-hstack gap-10">
     <img width={500} src={programmingIcon} alt="programming hobby" className=""/>
     <img width={500} src={sailingIcon} alt="sailing hobby" className=""/>
     <img width={500} src={teachingIcon} alt="teaching hobby" className=""/>
@@ -72,7 +71,7 @@ const IntroSlides = () => {
     <section>
     <p className="text-usf-yellow">With a partner next to you, share about yourself!</p>
     <ul>
-    <li>What’s your name?</li>
+    <li>What&apos;s your name?</li>
     <li>Where are you from?</li>
     <li>What year are you in?</li>
     <li>What program are you in?</li>
@@ -141,7 +140,7 @@ const IntroSlides = () => {
     <li>Publication Date: 2017-02-17</li>
     <li>Recommended</li>
     </ul>
-    <img src={textbook} alt="Java Software Solutions Textbook" />
+    <img src={textbook} alt="Java Software Solutions Textbook" className="h-[50vh]" />
     </div>
     </section>
     <section>
@@ -248,10 +247,6 @@ const IntroSlides = () => {
       <ul>
     <li>Due end of class</li>
     </ul>
-    {/* </ul> */}
-    {/* </div> */}
-    {/* <div className="flex flex-col"> */}
-    {/* <ul> */}
     <li>Labs - medium sized assignments that take 3-5 days</li>
     <ul><li>Due by the end of the week, usually worked on in class on Wednesdays</li></ul>
     </ul>
@@ -296,7 +291,7 @@ const IntroSlides = () => {
     </section>
     <section>
     <p className="text-usf-yellow">Table</p>
-    <img height={500} src={gradingTable} alt="Grading Table" className=""/>
+    <img  src={gradingTable} alt="Grading Table" className="w-[50vw]"/>
     </section>
     <section>
     <p className="text-usf-yellow">Projects</p>
@@ -336,6 +331,12 @@ const IntroSlides = () => {
     <li>Don&apos;t do it.</li>
     </ul>
     </ul>
+    </section>
+    <section>Course Web Page</section>
+    <section>
+    <p className="text-usf-yellow">Course Web Page</p>
+    <p>We will use a course web page for the assignments, but the submissions will happen on Canvas. Your grade will also be posted to Canvas.</p>
+    <p><a href="https://cs111-fall-25.github.io" target="_blank">https://cs111-fall-25.github.io</a></p>
     </section>
     <section>Set some expectations</section>
     <section>

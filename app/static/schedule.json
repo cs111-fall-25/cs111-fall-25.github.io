@@ -7,7 +7,7 @@
     "slides": [
       {
         "name": "Day 0: Introduction",
-        "link": "/slides/00/intro",
+        "link": "/slides/00/",
         "hidden": true
       }
     ]
@@ -28,17 +28,24 @@
       }
     ],
     "slides": [
-      {}
+      {
+        "name": "Day 1: Java",
+        "link": "/slides/01/",
+        "hidden": true
+      }
     ]
   },
   {
     "date": "8/27",
     "topics": ["Output", "Variables", "Data Types"],
     "assignments": [
-      {}
+      {
+
+      }
     ],
     "slides": [
-      {}
+      {
+      }
     ]
   },
   {
@@ -199,8 +206,7 @@
     "date": "11/26",
     "topics":["Command Line Arguments", "Recorded Lesson due to Day-before-Thanksgiving"],
     "assignments": [],
-    "slides": [],
-    "special": true
+    "slides": []
   },
   {
     "date": "12/1",

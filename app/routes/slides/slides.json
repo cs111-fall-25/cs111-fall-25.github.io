@@ -1,11 +1,12 @@
 [
   {
     "name": "00",
-    "slide_names": [
-      {
-        "name": "intro",
-        "date": "8/21/2025"
-      }
-    ]
+    "date": "8/21/2025",
+    "hidden": true
+  },
+  {
+    "name": "01",
+    "date": "8/25/2025",
+    "hidden": true
   }
 ]

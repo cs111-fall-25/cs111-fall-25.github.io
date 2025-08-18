@@ -15,13 +15,9 @@ import { ChevronRight } from 'lucide-react';
 
 interface Slide {
   name: string,
-  slide_names: SlideName[]
+  date: string,
+  hidden?: boolean
 };
-
-interface SlideName {
-  name: string,
-  date: string
-}
 
 import slides from './slides.json';
 
@@ -49,25 +45,25 @@ const SlidesPage = () => {
         </TableRow>
         </TableHeader>
         <TableBody>
-        {slides?.map(({ name, slide_names }: Slide) => {
-          return slide_names.map(({name: slide_name, date}: SlideName, jdx: number) => (
-            <TableRow key={`${name}-${slide_name}-${jdx}`}>
+        {slides?.map(({ name, date, hidden }: Slide) => (
+            hidden ? <></> : 
+            <TableRow key={`${name}`}>
             <TableCell>
-            <Link to={`/slides/${name}/${slide_name}`}>
-            Week {Digitify(name)} - {toTitleCase(slide_name)}
+            <Link to={`/slides/${name}/`}>
+            Week {Digitify(name)}
             </Link>
             </TableCell>
             <TableCell>
             {date}
             </TableCell>
             <TableCell>
-            <Link to={`/slides/${name}/${slide_name}`}>
+            <Link to={`/slides/${name}`}>
             <ChevronRight />
             </Link>
             </TableCell>
             </TableRow>
-          ))
-        })}
+          )
+        )}
         </TableBody>
         </Table>
         </div>
