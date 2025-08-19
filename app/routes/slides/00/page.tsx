@@ -188,15 +188,17 @@ const IntroSlides = () => {
     </section>
     <section>
     <p className="text-usf-yellow">TA Office Hours</p>
-    <div className="flex flex-row justify-around">
+    <div className="flex flex-row justify-between">
     <div>
     <p>Omyaasree</p>
-    <p>TIME</p> {/* TODO FILL TIME */}
+    <p>Tuesdays </p>
+    <p>6:30-8:30PM</p>
     <p>HR 411/413 (CS Labs)</p>
     </div>
     <div>
     <p>Rudraraj</p>
-    <p>TIME</p> {/* TODO FILL TIME */}
+    <p>Tuesdays, Thursdays </p>
+    <p>4-5:30PM</p>
     <p>HR 411/413 (CS Labs)</p>
     </div>
     </div>
@@ -285,7 +287,6 @@ const IntroSlides = () => {
     <li>Labs, In Class, Quizzes, and Exams will be graded by Complete/Incomplete</li>
     <li>Projects will be graded with Specification Based Grading</li>
     <li>Engagement and Extra Credit are also Complete/Incomplete</li>
-    <li>Exams are also Complete/Incomplete</li>
     </ul>
     </div>
     </section>
