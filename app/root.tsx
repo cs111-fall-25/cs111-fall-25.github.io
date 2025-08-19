@@ -4,8 +4,7 @@ import {
   Meta,
   Outlet,
   Scripts,
-  ScrollRestoration,
-  HashRouter
+  ScrollRestoration
 } from "react-router";
 import NotFoundPage from './not-found'; 
 import LoadingPage from './loading';
