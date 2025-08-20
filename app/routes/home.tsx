@@ -38,7 +38,7 @@ export default function Home() {
 
         </div>
         <div className="py-5 h-96 overflow-clip flex flex-col">
-          <Schedule showPrevious={false}/>
+          <Schedule showPrevious={true}/>
         </div>
       </Container>
       <Footer />

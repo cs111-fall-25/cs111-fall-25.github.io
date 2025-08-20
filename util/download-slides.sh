@@ -4,8 +4,8 @@
 running=`lsof -i tcp:5173`
 
 if [[ -n $running ]]; then 
-  echo "Server running"
-# bunx decktape generic http://localhost:5173/slides/"$1" $2
+  # echo "Server running"
+  bunx decktape generic http://localhost:5173/slides/"$1" $2
 else 
   echo "Server not running" 
 fi;
