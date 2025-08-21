@@ -1,9 +1,11 @@
 [
   {
-    "name": "00",
+    "number": "00",
+    "name": "Introductions",
     "date": "8/21/2025"
   },
   {
+    "number": "01",
     "name": "01",
     "date": "8/25/2025",
     "hidden": true

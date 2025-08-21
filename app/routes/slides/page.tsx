@@ -14,6 +14,7 @@ import {
 import { ChevronRight } from 'lucide-react';
 
 interface Slide {
+  number: string,
   name: string,
   date: string,
   hidden?: boolean
@@ -35,7 +36,7 @@ const SlidesPage = () => {
       <Navbar />
       <Container className="flex-col">
         <p className="text-3xl font-bold">Slides</p>
-        <div className="py-10 px-5 w-3/4">
+        <div className="py-10 px-5">
         <Table className="text-xl">
         <TableHeader>
         <TableRow>
@@ -45,12 +46,12 @@ const SlidesPage = () => {
         </TableRow>
         </TableHeader>
         <TableBody>
-        {slides?.map(({ name, date, hidden }: Slide) => (
+        {slides?.map(({ number, name, date, hidden }: Slide) => (
             hidden ? <></> : 
             <TableRow key={`${name}`}>
             <TableCell>
             <Link to={`/slides/${name}/`}>
-            Week {Digitify(name)}
+            Day {Digitify(number)}: {name}
             </Link>
             </TableCell>
             <TableCell>

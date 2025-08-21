@@ -12,6 +12,9 @@ const Navbar = () => {
     <DropdownMenuTrigger>Links</DropdownMenuTrigger>
     <DropdownMenuContent className="flex flex-col text-white">
     <DropdownMenuItem>
+    <NavLink to="/reading">Suggested Reading</NavLink>
+    </DropdownMenuItem>
+    <DropdownMenuItem>
     <NavLink to="/policies">Policies</NavLink>
     </DropdownMenuItem>
     <DropdownMenuItem>
@@ -34,9 +37,6 @@ const Navbar = () => {
     </DropdownMenuItem>
     <DropdownMenuItem>
     <NavLink to="/resources">Resources</NavLink>
-    </DropdownMenuItem>
-    <DropdownMenuItem>
-    <NavLink to="/reading">Suggested Reading</NavLink>
     </DropdownMenuItem>
     </DropdownMenuContent>
     </DropdownMenu>
