@@ -1,11 +1,11 @@
 import { Slides, SlideNavbar } from '@/components';
 
-import introSlidesPdf from '@/static/slides/intro-slides.pdf'
+import slidesPdf from '@/static/slides/java-basics.pdf'
 
 const JavaSlides = () => {
   return (
     <>
-    <SlideNavbar title="Day 1: Java" downloadHref={introSlidesPdf} />
+    <SlideNavbar title="Day 1: Java" downloadHref={slidesPdf} />
     <Slides>
     <section>
     <p className="text-usf-yellow">Day 1: Java</p>
@@ -328,7 +328,7 @@ const JavaSlides = () => {
     </section>
     <section>Setup</section>
     <section>
-    <p>We will go through the setup together, but you can also go through the assignment at the <a href="/inclass/setup" target="_blank">setup assignment</a></p>
+    <p>We will go through the setup together, but you can also go through the assignment at the <a href="/inclass/setup" target="_blank">setup assignment at /inclass/setup</a></p>
     </section>
     <section>Post setup</section>
     <section>
