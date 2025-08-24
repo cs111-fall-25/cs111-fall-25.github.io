@@ -1,6 +1,6 @@
 import { Slides, SlideNavbar } from '@/components';
 
-import slidesPdf from '@/static/slides/java-basics.pdf'
+import slidesPdf from '@/static/slides/java.pdf'
 
 const JavaSlides = () => {
   return (
