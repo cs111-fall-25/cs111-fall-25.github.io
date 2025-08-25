@@ -1,5 +1,3 @@
-"use client";
-
 import { useState, useEffect } from 'react';
 
 import { Navbar, Container, PageContainer, Footer, AssignmentSpecification } from '@/components';

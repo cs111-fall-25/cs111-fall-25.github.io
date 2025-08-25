@@ -1,8 +1,9 @@
 import { Slides, SlideNavbar } from '@/components';
+import type { ReactElement } from 'react';
 
 import slidesPdf from '@/static/slides/java.pdf'
 
-const JavaSlides = () => {
+const JavaSlides = () : ReactElement => {
   return (
     <>
     <SlideNavbar title="Day 1: Java" downloadHref={slidesPdf} />

@@ -1,9 +1,7 @@
-"use client";
 import { useEffect, useRef } from 'react';
 import Reveal from "reveal.js";
 import "reveal.js/dist/reveal.css";
 import RevealNotes from 'reveal.js/plugin/notes/notes.esm.js';
-// import "reveal.js/dist/theme/moon.css";
 import "./usfca.scss";
 
 const Slides = ({ children }: any) => {
