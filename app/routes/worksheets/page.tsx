@@ -10,7 +10,9 @@ import {
 } from "@/components/ui/table"
 import { ChevronRight } from 'lucide-react';
 
-import variablesWorksheet from "./sheets/variables and data types.pdf"
+
+import variablesWorksheet from "./sheets/variables.pdf"
+import dataTypesWorksheet from "./sheets/variables.pdf"
 
 const WorksheetsPage = () => {
   return <>
@@ -28,10 +30,15 @@ const WorksheetsPage = () => {
         </TableRow>
         </TableHeader>
         <TableBody>
+        <TableRow>
+        <TableCell>Variables and Data Types</TableCell>
+        <TableCell>A worksheet to introduce and define variables and data types</TableCell>
+        <TableCell><Link to={variablesWorksheet} target="_blank"><ChevronRight size={30}/></Link></TableCell>
+        </TableRow>
         {/* <TableRow> */}
-        {/* <TableCell>Variables and Data Types</TableCell> */}
-        {/* <TableCell>A worksheet to introduce and define variables and data types</TableCell> */}
-        {/* <TableCell><Link to={variablesWorksheet} target="_blank"><ChevronRight size={30}/></Link></TableCell> */}
+        {/* <TableCell>Data Types</TableCell> */}
+        {/* <TableCell>A worksheet to introduce data types.</TableCell> */}
+        {/* <TableCell><Link to={dataTypesWorksheet} target="_blank"><ChevronRight size={30} /></Link></TableCell> */}
         {/* </TableRow> */}
         </TableBody>
         </Table>

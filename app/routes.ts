@@ -7,13 +7,15 @@ export default [
   route("/inclass", "routes/inclass/page.tsx"),
   route("/inclass/:name", "routes/inclass/[name]/page.tsx"),
   route("/labs", "routes/labs/page.tsx"),
-  route("/labs/:name", "routes/labs/[name]/page.tsx"),
+  route("/lab/:name", "routes/labs/[name]/page.tsx"),
   route("/projects", "routes/projects/page.tsx"),
-  route("/projects/:name", "routes/projects/[name]/page.tsx"),
+  route("/project/:name", "routes/projects/[name]/page.tsx"),
   route("/resources", "routes/resources/page.tsx"),
   route("/worksheets", "routes/worksheets/page.tsx"),
   route("/reading", "routes/reading/page.tsx"),
   route("/slides", "routes/slides/page.tsx"),
   route("/slides/00", "routes/slides/00/page.tsx"),
-  route("/slides/01", "routes/slides/01/page.tsx")
+  route("/slides/01", "routes/slides/01/page.tsx"),
+  route("/slides/02", "routes/slides/02/page.tsx"),
+  // route("/slides/03", "routes/slides/03/page.tsx"),
 ] satisfies RouteConfig;

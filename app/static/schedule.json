@@ -17,20 +17,17 @@
     "assignments": [
       {
         "name": "setup",
-        "type": "inclass",
-        "hidden": true
+        "type": "inclass"
       },
       {
         "name": "post-setup",
-        "type": "inclass",
-        "hidden": true
+        "type": "inclass"
       }
     ],
     "slides": [
       {
         "name": "Day 1: Java",
-        "link": "/slides/01/",
-        "hidden": true
+        "link": "/slides/01/"
       }
     ]
   },
@@ -39,11 +36,14 @@
     "topics": ["Output", "Variables", "Data Types"],
     "assignments": [
       {
-
+        "name": "1",
+        "type": "lab"
       }
     ],
     "slides": [
       {
+        "name": "Day 2: Java Basics",
+        "link": "/slides/02/"
       }
     ]
   },

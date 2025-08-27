@@ -5,5 +5,6 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
   base: "/",
+  assetsInclude: "**/*.pdf",
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
 });
