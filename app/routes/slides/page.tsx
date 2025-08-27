@@ -58,7 +58,7 @@ const SlidesPage = () => {
             {date}
             </TableCell>
             <TableCell>
-            <Link to={`/slides/${name}`}>
+            <Link to={`/slides/${number}`}>
             <ChevronRight />
             </Link>
             </TableCell>

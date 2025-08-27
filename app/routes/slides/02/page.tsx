@@ -97,7 +97,6 @@ const JavaBasicsSlides = (): ReactElement => {
     <li>long</li>
     <li>float</li>
     <li>double</li>
-    <li>long</li>
     <li>boolean</li>
     </ol>
     </Half>
@@ -117,7 +116,6 @@ const JavaBasicsSlides = (): ReactElement => {
     <li>long</li>
     <li>float</li>
     <li>double</li>
-    <li>long</li>
     <li>boolean</li>
     </ol>
     </Half>
@@ -138,7 +136,6 @@ const JavaBasicsSlides = (): ReactElement => {
     <li>long</li>
     <li>float</li>
     <li>double</li>
-    <li>long</li>
     <li>boolean</li>
     </ol>
     </Half>
