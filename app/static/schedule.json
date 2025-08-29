@@ -57,8 +57,20 @@
   {
     "date": "9/3",
     "topics": ["Scanner", "Operators", "Basic Operators"],
-    "assignments": [],
-    "slides": []
+    "assignments": [
+      {
+        "name": "input-exploration",
+        "type": "inclass",
+        "hidden": true
+      }
+    ],
+    "slides": [
+      {
+        "name": "Day 3: Scanner",
+        "link": "/slides/03/",
+        "hidden": true
+      }
+    ]
   },
   {
     "date": "9/8",
