@@ -7,7 +7,12 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table"
-import { ChevronRight } from 'lucide-react';
+import { SquareChevronRight } from 'lucide-react';
+import { type ReactElement } from 'react';
+
+const ExternalLink = ({ href, name }: { href: string, name: string }): ReactElement => (
+  <div className="flex flex-row space-between items-center space-x-2"><a href={href} target="_blank">{name}</a><a href={href} target="_blank"><SquareChevronRight size={20} /></a></div>
+) 
 
 const SuggestedReadingPage = () => {
   return (
@@ -58,10 +63,10 @@ const SuggestedReadingPage = () => {
         <p>Suggested for Wednesday:</p>
           <ul className="list-disc pl-5">
           <li>
-          <a href="https://www.w3schools.com/java/java_user_input.asp" target="_blank">W3Schools Article: Java User Input</a>
+          <ExternalLink href="https://www.w3schools.com/java/java_user_input.asp" name="W3Schools Article: Java User Input" />
           </li>
           <li>
-          <a href="https://www.geeksforgeeks.org/scanner-class-in-java" target="_blank">GeeksForGeeks Article: Scanner</a>
+          <ExternalLink href="https://www.geeksforgeeks.org/scanner-class-in-java" name="GeeksForGeeks Article: Scanner"/>
           </li>
         </ul>
         </TableCell>

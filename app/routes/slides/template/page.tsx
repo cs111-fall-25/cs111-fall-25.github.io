@@ -1,11 +1,8 @@
 import { Slides, SlideNavbar } from '@/components';
-import { type ReactNode, type ReactElement } from 'react';
+import { type ReactElement } from 'react';
+import { Row, Half, HalfCode, Indent } from '../components';
 
 import slidesPdf from '@/static/slides/java.pdf';
-
-const Row = ({ children }: {children: ReactNode}): ReactNode => <div className="flex flex-row text-[16pt] text-left space-x-10 space-around">{children}</div>;
-
-const Half = ({ children }: { children: ReactNode }): ReactNode => <div className="w-1/2">{children}</div>;
 
 const title: string = "Day N: Name";
 const agenda: string[] = ["Variables", "Primitive Data Types", "Naming Conventions", "Brief Intro to Strings", "Output", "Lab 1: Printing Data"]
