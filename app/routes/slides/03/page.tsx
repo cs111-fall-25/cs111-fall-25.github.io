@@ -1,11 +1,8 @@
 import { Slides, SlideNavbar } from '@/components';
-import { type ReactNode, type ReactElement } from 'react';
+import { type ReactElement } from 'react';
+import { Row, Half } from '../components';
 
 import slidesPdf from '@/static/slides/java.pdf';
-
-const Row = ({ children }: {children: ReactNode}): ReactNode => <div className="flex flex-row text-[16pt] text-left space-x-10 space-around">{children}</div>;
-
-const Half = ({ children }: { children: ReactNode }): ReactNode => <div className="w-1/2">{children}</div>;
 
 const title: string = "Day 3: Scanner";
 const agenda: string[] = ["Quiz 1", "Census Day Reminder", "Lab 1 Q5 Review", "Input", "Scanner", "Closing the Scanner", "Review of Operators", "In Class: Input Practice"]
@@ -228,6 +225,7 @@ const Slide = () : ReactElement => {
     <p><code>Scanner input = new Scanner(System.in);</code></p>
     <p><code>System.out.print("Enter your name: ");</code></p>
     <p><code>String name = input.next();</code></p>
+    <p><code>input.nextLine();</code></p>
     </Half>
     </Row>
     </section>
@@ -242,6 +240,7 @@ const Slide = () : ReactElement => {
     <p><code>Scanner input = new Scanner(System.in);</code></p>
     <p><code>System.out.print("Enter your age: ");</code></p>
     <p><code>int age = input.nextInt();</code></p>
+    <p><code>input.nextLine();</code></p>
     </Half>
     </Row>
     </section>
@@ -256,6 +255,7 @@ const Slide = () : ReactElement => {
     <p><code>Scanner input = new Scanner(System.in);</code></p>
     <p><code>System.out.print("Enter your age: ");</code></p>
     <p><code>double age = input.nextDouble();</code></p>
+    <p><code>input.nextLine();</code></p>
     </Half>
     </Row>
     </section>
