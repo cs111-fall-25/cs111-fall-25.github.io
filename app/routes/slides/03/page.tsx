@@ -2,7 +2,7 @@ import { Slides, SlideNavbar } from '@/components';
 import { type ReactElement } from 'react';
 import { Row, Half } from '../components';
 
-import slidesPdf from '@/static/slides/java.pdf';
+import slidesPdf from '@/static/slides/scanner.pdf';
 
 const title: string = "Day 3: Scanner";
 const agenda: string[] = ["Quiz 1", "Census Day Reminder", "Lab 1 Q5 Review", "Input", "Scanner", "Closing the Scanner", "Review of Operators", "In Class: Input Practice"]
@@ -219,6 +219,7 @@ const Slide = () : ReactElement => {
     <Half>
     <p><code>next()</code> gives us a String of what was inputted by the user, following the print statement.</p>
     <p>If we want to output a prompt and take the input on the same line, this is where the regular <code>System.out.print</code> comes in handy.</p>
+      <p>The difference between <code>next</code> and <code>nextLine</code> is, <code>next</code> reads up to the first space character, while <code>nextLine</code> will read until the new line character. (\n)</p>
       <p>An important note is: We may have to scan in the new line character afterwards, so we often simply have a <code>input.nextLine();</code></p>
     </Half>
     <Half>
