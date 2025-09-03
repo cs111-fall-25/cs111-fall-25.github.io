@@ -60,15 +60,13 @@
     "assignments": [
       {
         "name": "input-exploration",
-        "type": "inclass",
-        "hidden": true
+        "type": "inclass"
       }
     ],
     "slides": [
       {
         "name": "Day 3: Scanner",
-        "link": "/slides/03/",
-        "hidden": true
+        "link": "/slides/03/"
       }
     ]
   },

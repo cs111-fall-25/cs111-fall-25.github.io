@@ -420,6 +420,9 @@ const Slide = () : ReactElement => {
     <section>
     <p className="text-usf-yellow">In Class: Input Practice</p>
     </section>
+    <section>
+    <p>Note; a use-case is a situation/circumstance where you would use something. For example, a use-case of an if-statement is when we need to check if two values are the same, then running some code.</p>
+    </section>
     </Slides>
     </>
   )
