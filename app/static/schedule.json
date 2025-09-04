@@ -73,20 +73,61 @@
   {
     "date": "9/8",
     "topics": ["Type Casting", "Conditional Statements", "Boolean Expressions", "and/or/not", "While Loops"],
-    "assignments": [],
-    "slides": []
+    "assignments": [
+      {
+        "name": "2",
+        "type": "lab",
+        "hidden": true
+      }
+    ],
+    "slides": [
+      {
+        "name": "Day 4: Conditionals",
+        "link": "/slides/04",
+        "hidden": true
+      }
+    ]
   },
   {
     "date": "9/10",
     "topics": ["Nested Conditionals", "Unary Operators", "For Loops"],
-    "assignments": [],
-    "slides": []
+    "assignments": [
+      {
+        "name": "iterative-exploration",
+        "type": "inclass",
+        "hidden": true
+      }
+    ],
+    "slides": [
+      {
+        "name": "Day 5: For Loops",
+        "link": "/slides/05",
+        "hidden": true
+      }
+    ]
   },
   {
     "date": "9/15",
     "topics": ["Strings", "Immutability", "Concatenation", "Javadoc", "String indexing", "Iterating through a string"],
-    "assignments": [],
-    "slides": []
+    "assignments": [
+      {
+        "name": "3",
+        "type": "lab",
+        "hidden": true
+      },
+      {
+        "name": "1",
+        "type": "project",
+        "hidden": true
+      }
+    ],
+    "slides": [
+      {
+        "name": "Day 6: Strings",
+        "link": "/slides/06",
+        "hidden": true
+      }
+    ]
   },
   {
     "date": "9/17",

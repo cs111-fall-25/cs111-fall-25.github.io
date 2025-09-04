@@ -1,13 +1,14 @@
-import React from 'react';
 import { Link } from 'react-router';
 import { date_to_weekday } from './util';
 import type { ScheduleRowProps } from './types';
 import { useWindowDimensions } from '@/hooks';
 
+const de_snakify = (name: string): string => name.split("-").join(" ");
+
 const format_assignment_name = (name: string, type: string) => {
   switch(type){
     case "inclass":
-      return <span className="text-yellow-600 dark:text-yellow-200">[In Class] {name}</span>
+      return <span className="text-yellow-600 dark:text-yellow-200">[In Class] {de_snakify(name)}</span>
     case "lab":
       return <span className="text-orange-600 dark:text-orange-200">[Lab] {name}</span>
     case "project":
