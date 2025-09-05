@@ -2,7 +2,7 @@ import { Slides, SlideNavbar } from '@/components';
 import { type ReactElement } from 'react';
 import { Row, Half, HalfCode, Indent } from '../components';
 
-import slidesPdf from '@/static/slides/java.pdf';
+import slidesPdf from '@/static/slides/conditionals.pdf';
 import { Table, TableHeader, TableBody, TableCell, TableHead, TableRow  } from '@/components';
 
 const title: string = "Day 4: Conditionals";

@@ -2,7 +2,7 @@ import { Slides, SlideNavbar } from '@/components';
 import { type ReactElement } from 'react';
 import { Row, Half, HalfCode, Indent } from '../components';
 
-import slidesPdf from '@/static/slides/java.pdf';
+import slidesPdf from '@/static/slides/for-loops.pdf';
 
 const title: string = "Day 5: For Loops";
 const agenda: string[] = ["Quiz 2", "Nested Conditionals", "Unary Operators", "For Loops", "Continue", "Nested Loops", "In Class"]
