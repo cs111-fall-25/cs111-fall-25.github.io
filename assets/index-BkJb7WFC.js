@@ -1,1 +1,0 @@
-import{t}from"./index-CiYINecr.js";const e=({children:s})=>t.jsx("div",{className:"flex flex-row text-[16pt] text-left space-x-10 space-around",children:s}),x=({children:s})=>t.jsx("div",{className:"w-1/2",children:s});export{x as H,e as R};
