@@ -71,24 +71,24 @@ const SuggestedReadingPage = () => {
         </ul>
         </TableCell>
         </TableRow>
-        {/* <TableRow> */}
-        {/* <TableCell className="text-center">3</TableCell> */}
-        {/* <TableCell className="pl-5 py-5"> */}
-        {/* <p>Monday: Java Software Solutions</p> */}
-        {/*   <ul className="list-disc pl-5"> */}
-        {/* <li>5.1: Boolean Expressions</li> */}
-        {/* <li>5.2: The If Statement</li> */}
-        {/* <li>5.3: Comparing Data</li> */}
-        {/* <li>5.4: The While Statement</li> */}
-        {/* <li>5.5: Iterators</li> */}
-        {/* </ul> */}
-        {/* <br /> */}
-        {/* <p>Wednesday: Java Software Solutions</p> */}
-        {/* <ul className="list-disc pl-5"> */}
-        {/* <li>6.4: The for statement</li> */}
-        {/* </ul> */}
-        {/* </TableCell> */}
-        {/* </TableRow> */}
+        <TableRow>
+        <TableCell className="text-center">3</TableCell>
+        <TableCell className="pl-5 py-5">
+        <p>Monday: Java Software Solutions</p>
+          <ul className="list-disc pl-5">
+        <li>5.1: Boolean Expressions</li>
+        <li>5.2: The If Statement</li>
+        <li>5.3: Comparing Data</li>
+        <li>5.4: The While Statement</li>
+        <li>5.5: Iterators</li>
+        </ul>
+        <br />
+        <p>Wednesday: Java Software Solutions</p>
+        <ul className="list-disc pl-5">
+        <li>6.4: The for statement</li>
+        </ul>
+        </TableCell>
+        </TableRow>
         {/* <TableRow> */}
         {/* <TableCell className="text-center">4</TableCell> */}
         {/* <TableCell className="pl-5 py-5"> */}
