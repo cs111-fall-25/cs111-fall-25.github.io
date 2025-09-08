@@ -18,5 +18,10 @@
     "number": "03",
     "name": "Scanner",
     "date": "9/3/2025"
+  },
+  {
+    "number": "04",
+    "name":"Conditionals",
+    "date": "9/8/2025"
   }
 ]

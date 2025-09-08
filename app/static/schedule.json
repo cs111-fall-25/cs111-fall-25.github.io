@@ -76,15 +76,13 @@
     "assignments": [
       {
         "name": "2",
-        "type": "lab",
-        "hidden": true
+        "type": "lab"
       }
     ],
     "slides": [
       {
         "name": "Day 4: Conditionals",
-        "link": "/slides/04",
-        "hidden": true
+        "link": "/slides/04"
       }
     ]
   },
