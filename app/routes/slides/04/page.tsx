@@ -139,7 +139,7 @@ const Slide = () : ReactElement => {
     <TableRow>
     <TableHead>x</TableHead>
     <TableHead>y</TableHead>
-    <TableHead>x &amp;&amp; y</TableHead>
+    <TableHead>x &#124;&#124; y</TableHead>
     </TableRow>
     </TableHeader>
     <TableBody>
@@ -173,7 +173,7 @@ const Slide = () : ReactElement => {
     <ul className="list-disc pl-5">
     {["Left to Right", "Parentheses get evaluated first", "Not evaluated next", "And evaluated after", "Or evaluated last", "Parentheses do change this order, just like they do with regular arithmetic operations"].map((op: string, i: number) => <li key={i}>{op}</li>)}
     </ul>
-    <p><code>true &#124;&#124; (true &amp;&amp; false) = true &#124;&124; false = true</code></p>
+    <p><code>true &#124;&#124; (true &amp;&amp; false) = true &#124;&#124; false = true</code></p>
     </div>
     </section>
     <section>
@@ -305,7 +305,7 @@ const Slide = () : ReactElement => {
     </Half>
     <HalfCode>
     <Indent>int x = 1;</Indent>
-    <Indent>while(x &gt; 5)&#123;</Indent>
+    <Indent>while(x &lt; 5)&#123;</Indent>
     <Indent space={1}>x += 1;</Indent>
     <Indent>&#125;</Indent>
     </HalfCode>
@@ -397,7 +397,7 @@ const Slide = () : ReactElement => {
     <Row>
     <Half>
     <p>Removing the parentheses would maintain the order of operations, as multiplication happens first, however, separating the operations leads to more readable code.</p>
-    <p>Ensure the order or operations is correct, or you risk having the incorrect range of [0, 20) </p>
+    <p>Ensure the order or operations is correct, or you risk having the incorrect range of [0, 25) </p>
     </Half>
     <HalfCode>
     <Indent space={0}>int num = (int) (Math.random() * (25-5 + 5));</Indent>
