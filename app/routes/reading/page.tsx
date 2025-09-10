@@ -89,21 +89,29 @@ const SuggestedReadingPage = () => {
         </ul>
         </TableCell>
         </TableRow>
-        {/* <TableRow> */}
-        {/* <TableCell className="text-center">4</TableCell> */}
-        {/* <TableCell className="pl-5 py-5"> */}
-        {/* <p>Monday: Java Software Solutions</p> */}
-        {/* <ul className="list-disc pl-5"><li>3.2:  The String class</li></ul>         */}
-        {/* <br /> */}
-        {/* <p>Wednesday</p> */}
-        {/* <ul className="list-disc pl-5"> */}
-        {/*   <li><a href="https://www.geeksforgeeks.org/dsa/stack-vs-heap-memory-allocation/" target="_blank">GeeksForGeeks Stack v Heap</a></li> */}
-        {/*   <li><a href="https://www.geeksforgeeks.org/java/garbage-collection-in-java/" target="_blank">GeeksForGeeks Garbage Collection</a></li> */}
-        {/*   <li><a href="https://www.geeksforgeeks.org/java/stringbuilder-class-in-java-with-examples/" target="_blank">GeeksForGeeks String Builder</a></li> */}
-        {/*   <li><a href="https://www.w3schools.com/java/java_arrays.asp" target="_blank">W3Schools Java Arrays</a></li> */}
-        {/* </ul> */}
-        {/* </TableCell> */}
-        {/* </TableRow> */}
+        <TableRow>
+        <TableCell className="text-center">4</TableCell>
+        <TableCell className="pl-5 py-5">
+        <p>Monday: Java Software Solutions</p>
+        <ul className="list-disc pl-5"><li>3.2:  The String class</li></ul>        
+        <br />
+        <p>Wednesday</p>
+        <ul className="list-disc pl-5">
+        <li>
+          <ExternalLink href="https://www.geeksforgeeks.org/dsa/stack-vs-heap-memory-allocation/" name="GeeksForGeeks Stack v Heap"/>
+        </li>
+          <li>
+          <ExternalLink href="https://www.geeksforgeeks.org/java/garbage-collection-in-java/" name="GeeksForGeeks Garbage Collection" />
+          </li>
+          <li>
+          <ExternalLink href="https://www.geeksforgeeks.org/java/stringbuilder-class-in-java-with-examples/" name="GeeksForGeeks String Builder" />
+          </li>
+          <li>
+          <ExternalLink href="https://www.w3schools.com/java/java_arrays.asp" name="W3Schools Java Arrays" />
+          </li>
+        </ul>
+        </TableCell>
+        </TableRow>
         {/* <TableRow> */}
         {/* <TableCell className="text-center">5</TableCell> */}
         {/* <TableCell className="pl-5 py-5"> */}
