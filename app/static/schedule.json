@@ -92,15 +92,13 @@
     "assignments": [
       {
         "name": "iterative-exploration",
-        "type": "inclass",
-        "hidden": true
+        "type": "inclass"
       }
     ],
     "slides": [
       {
         "name": "Day 5: For Loops",
-        "link": "/slides/05",
-        "hidden": true
+        "link": "/slides/05"
       }
     ]
   },
@@ -131,7 +129,13 @@
     "date": "9/17",
     "topics": ["StringBuilder", "Array", "Stack v Heap"],
     "assignments": [],
-    "slides": []
+    "slides": [
+      {
+        "name": "Day 7: StringBuilder + Arrays",
+        "link": "/slides/07",
+        "hidden": true
+      }
+    ]
   },
   {
     "date": "9/22",

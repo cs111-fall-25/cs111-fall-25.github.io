@@ -23,5 +23,11 @@
     "number": "04",
     "name":"Conditionals",
     "date": "9/8/2025"
+  },
+  {
+    "number": "05",
+    "name":"For Loops",
+    "date": "9/10/2025"
   }
+
 ]
