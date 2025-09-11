@@ -96,12 +96,12 @@ const Slide = () : ReactElement => {
     <section>
     <p className="text-usf-yellow">Polymorphism</p>
     <p>The ability to have different implementations for methods/functions, with different function parameters.</p>
-      <p>We will see this more next week too! (well, after the midterm.)</p>
+      <p>We will see this more next week too!</p>
     </section>
     <section>
     <p className="text-usf-yellow">Wait...</p>
     <p>Now, that was more of an introduction to Object Oriented Programming from a more theoretical/abstract perspective.</p>
-    <p>We will properly work through creating our own classes after the midterm. It also won't be on the midterm.</p>
+    <p>We will properly work through creating our own classes next week</p>
     </section>
     <section>
     <p className="text-usf-yellow">...why?</p>
