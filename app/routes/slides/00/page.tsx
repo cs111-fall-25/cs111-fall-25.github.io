@@ -296,7 +296,7 @@ const IntroSlides = () => {
     </section>
     <section>
     <p className="text-usf-yellow">Projects</p>
-    <p>Quiz Study Helper</p>
+    <p>Password Manager</p>
     </section>
     <section>
     <p className="text-usf-yellow">CS Engagement</p>
