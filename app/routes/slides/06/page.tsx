@@ -248,7 +248,68 @@ const Slide = () : ReactElement => {
     </section>
     <section><p className="text-usf-yellow">Project 1</p></section>
     <section>
-    {/* TODO: Add Project 1 related slides */}
+    <p className="text-usf-yellow">Password Validator and Generator</p>
+    </section>
+    <section>
+    <p className="text-usf-yellow">Task</p>
+    <ul>
+    <li>You will create a simple Password Validator and Generator</li>
+    <li>The user will be given two options after logging in. They can validate a password or generate a new password.</li>
+    <li>You will store a username and password in the program, by updating the variables in the code to save a login credential.</li>
+    </ul>
+    </section>
+    <section>
+    <p className="text-usf-yellow">Password Validation</p>
+    <p>For a password to be "valid", it must satisfy the following requirements:</p>
+      <ul>
+    <li>At least 8 characters long.</li>
+    <li>Contain 1 uppercase character.</li>
+    <li>Contain 1 lowercase character.</li>
+    <li>Contain 1 digit.</li>
+    </ul>
+    <p>Ask the user to input the password they want to validate.</p>
+    </section>
+    <section>
+    <p className="text-usf-yellow">Checking for uppercase</p>
+    <Row>
+    <Half>
+    <p>We can simply check if the character is greater than the character of 'A' and less than the character of 'Z'</p>
+    </Half>
+    <HalfCode>
+    <Indent>char c = 'H';</Indent>
+    <Indent>c &gt;= 'A' &amp;&amp; c &lt;= 'Z'; // evals to true</Indent>
+    </HalfCode>
+    </Row>
+    </section>
+    <section>
+    <p className="text-usf-yellow">Checking for uppercase</p>
+    <Row>
+    <Half>
+    <p>This works because characters actually use ASCII to represent the data.</p>
+    <p><a href="https://www.asciitable.com" target="_blank">asciitable.com</a></p>
+    <p>Ultimately, characters still represent numbers.</p>
+    </Half>
+    <HalfCode>
+    <Indent>char c = 'H';</Indent>
+    <Indent>c &gt;= 'A' &amp;&amp; c &lt;= 'Z'; // evals to true</Indent>
+    </HalfCode>
+    </Row>
+    </section>
+    <section>
+    <p className="text-usf-yellow">Generating an uppercase character</p>
+    <Row>
+    <Half>
+    <p>In order to generate a random uppercase character, we would simply get a random number from 0 to 26, then shift it by the character of 'A'.</p>
+    <p>This works as 'A' is the character representation for the decimal value of 65. This means we're basically adding 65 to our number, then casting it to a character.</p>
+    </Half>
+    <HalfCode>
+    <Indent>char c = (char) ((Math.random() * 26) + 'A');</Indent>
+    </HalfCode>
+    </Row>
+    </section>
+    <section>
+    <p className="text-usf-yellow">Generating a password</p>
+    <p>Ask the user for the length of the password, then create a string with random uppercase letters, lowercase letters, and digits. The password should be at least 8 characters long.</p>
     </section>
     <section>
     <p className="text-usf-yellow">Lab 3</p>
