@@ -244,6 +244,21 @@ const Slide = () : ReactElement => {
     </ul>
     </section>
     <section>
+    <p className="text-usf-yellow">Interactive Grading: Project 1</p>
+    <div className="text-[16pt]">
+    <p>Project 1 is due on Friday, 9/26. Monday, next week, 9/29 will go differently.</p>
+    <p>Plan:</p>
+    <ul>
+      <li>The lecture will be recorded and posted over the weekend. Check CampusWire for the announcement and the video link.</li>
+      <li>We will spend the first 10 minutes in class for the Quiz. Come for that.</li>
+      <li>After the quiz, we may go over it, but you will be allowed to leave. Come back for your Allocated Time slot for the Interactive Grading of Project 1.</li>
+      <li>In the meantime, work on the in-class assigned.</li>
+    </ul>
+    <p>Sign up for your 5 minute meeting with myself/your TA in the Google Spreadsheet.</p>
+      <p>The Interactive Grading will be a brief 5 minute conversation with either myself or your TA. We simply want to check your understanding of your project and the code you wrote.</p>
+    </div>
+    </section>
+    <section>
     <p className='text-usf-yellow'>Lab 5: Tic Tac Toe</p>
     </section>
     </Slides>
