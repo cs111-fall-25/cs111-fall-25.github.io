@@ -108,27 +108,30 @@
     "assignments": [
       {
         "name": "3",
-        "type": "lab",
-        "hidden": true
+        "type": "lab"
       },
       {
         "name": "1",
-        "type": "project",
-        "hidden": true
+        "type": "project"
       }
     ],
     "slides": [
       {
         "name": "Day 6: Strings",
-        "link": "/slides/06",
-        "hidden": true
+        "link": "/slides/06"
       }
     ]
   },
   {
     "date": "9/17",
     "topics": ["StringBuilder", "Array", "Stack v Heap"],
-    "assignments": [],
+    "assignments": [
+      {
+        "name": "4",
+        "type": "lab",
+        "hidden": true
+      }
+    ],
     "slides": [
       {
         "name": "Day 7: StringBuilder + Arrays",
@@ -147,13 +150,25 @@
     "date": "9/24",
     "topics": ["Static Functions", "Object Oriented Programming"],
     "assignments": [],
-    "slides": []
+    "slides": [
+      {
+        "name": "Day 8: 2D Arrays",
+        "link": "/slides/08",
+        "hidden": true
+      }
+    ]
   },
   {
     "date": "9/29",
     "topics": ["Classes", "Constructors", "Methods", "this"],
     "assignments": [],
-    "slides": []
+    "slides": [
+      {
+        "name": "Day 9: Static",
+        "link": "/slides/09",
+        "hidden": true
+      }
+    ]
   },
   {
     "date": "10/1",

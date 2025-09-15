@@ -37,13 +37,13 @@ const ProjectsPage = () => {
         {assignments?.map((assignment: Assignment) => (
           <TableRow key={assignment.name}>
           <TableCell>
-          <Link to={`/labs/${assignment.name}`}>
+          <Link to={`/project/${assignment.name}`}>
           {toTitleCase(assignment.name)}
           </Link>
           </TableCell>
           <TableCell>{assignment.due_date}</TableCell>
           <TableCell>
-          <Link to={`/labs/${assignment.name}`}>
+          <Link to={`/project/${assignment.name}`}>
           <ChevronRight />
           </Link>
           </TableCell>
