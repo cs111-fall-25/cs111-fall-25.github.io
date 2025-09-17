@@ -23,7 +23,7 @@ const Slide = () : ReactElement => {
     </section>
     <section>
     <p className="text-usf-yellow">String Concatenation not always good</p>
-    <p>As we said on Wednesday, constantly concatenating to Strings isn't ideal. It eds up creating too many new objects in memory.</p>
+    <p>As we said on Wednesday, constantly concatenating to Strings isn't ideal. It ends up creating too many new objects in memory.</p>
     <p>So how can we effectively add to a string?</p>
     </section>
     <section>
