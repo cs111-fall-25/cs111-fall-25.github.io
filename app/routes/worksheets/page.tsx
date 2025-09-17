@@ -11,8 +11,12 @@ import {
 import { ChevronRight } from 'lucide-react';
 
 
-import variablesWorksheet from "./sheets/variables.pdf"
-import dataTypesWorksheet from "./sheets/variables.pdf"
+import variablesWorksheet from "./sheets/variables.pdf";
+import dataTypesWorksheet from "./sheets/data types.pdf";
+import conditionalWorksheet from './sheets/conditional statements.pdf';
+import whileWorksheet from './sheets/while loops.pdf';
+import forLoopWorksheet from './sheets/for loops.pdf';
+import stringWorksheet from './sheets/strings.pdf';
 
 const WorksheetsPage = () => {
   return <>
@@ -32,14 +36,34 @@ const WorksheetsPage = () => {
         <TableBody>
         <TableRow>
         <TableCell>Variables and Data Types</TableCell>
-        <TableCell>A worksheet to introduce and define variables and data types</TableCell>
+        <TableCell>What is a Variable and what is a Data Type?</TableCell>
         <TableCell><Link to={variablesWorksheet} target="_blank"><ChevronRight size={30}/></Link></TableCell>
         </TableRow>
-        {/* <TableRow> */}
-        {/* <TableCell>Data Types</TableCell> */}
-        {/* <TableCell>A worksheet to introduce data types.</TableCell> */}
-        {/* <TableCell><Link to={dataTypesWorksheet} target="_blank"><ChevronRight size={30} /></Link></TableCell> */}
-        {/* </TableRow> */}
+        <TableRow>
+        <TableCell>Data Types</TableCell>
+        <TableCell>A more detail look into the question of "What is a Data Type" in Java.</TableCell>
+        <TableCell><Link to={dataTypesWorksheet} target="_blank"><ChevronRight size={30} /></Link></TableCell>
+        </TableRow>
+        <TableRow>
+        <TableCell>Conditional Statements</TableCell>
+        <TableCell>How do we run code only when some conditions are met?</TableCell>
+        <TableCell><Link to={conditionalWorksheet} target="_blank"><ChevronRight size={30} /></Link></TableCell>
+        </TableRow>
+        <TableRow>
+        <TableCell>While Loops</TableCell>
+        <TableCell>How do we repeat code when certain conditions are true?</TableCell>
+        <TableCell><Link to={whileWorksheet} target="_blank"><ChevronRight size={30} /></Link></TableCell>
+        </TableRow>
+        <TableRow>
+        <TableCell>For Loops</TableCell>
+        <TableCell>How do we repeat code a set number of times?</TableCell>
+        <TableCell><Link to={forLoopWorksheet} target="_blank"><ChevronRight size={30} /></Link></TableCell>
+        </TableRow>
+        <TableRow>
+        <TableCell>Strings</TableCell>
+        <TableCell>What are strings? How do they work in Java?</TableCell>
+        <TableCell><Link to={stringWorksheet} target="_blank"><ChevronRight size={30} /></Link></TableCell>
+        </TableRow>
         </TableBody>
         </Table>
         </div>
