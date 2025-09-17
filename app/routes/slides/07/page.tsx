@@ -329,8 +329,8 @@ const Slide = () : ReactElement => {
     </Half>
     <HalfCode>
     <Indent>int[] arr = &#123; 1, 4, 9, 16, 25, 36 &#125;;</Indent>
-    <Indent>for(int i : arr) &#123;</Indent>
-    <Indent space={1}>System.out.print(i + " ");</Indent>
+    <Indent>for(int num : arr) &#123;</Indent>
+    <Indent space={1}>System.out.print(num + " ");</Indent>
     <Indent>&#125;</Indent>
     <p>// Gives 1 4 9  16 25 36</p>
     </HalfCode>
@@ -345,8 +345,8 @@ const Slide = () : ReactElement => {
     </Half>
     <HalfCode>
     <Indent>int[] arr = &#123; 1, 4, 9, 16, 25, 36 &#125;;</Indent>
-    <Indent>for(int i : arr) &#123;</Indent>
-    <Indent space={1}>System.out.print(i + " ");</Indent>
+    <Indent>for(int num : arr) &#123;</Indent>
+    <Indent space={1}>System.out.print(num + " ");</Indent>
     <Indent>&#125;</Indent>
     <p>// Gives 1 4 9  16 25 36</p>
     </HalfCode>
