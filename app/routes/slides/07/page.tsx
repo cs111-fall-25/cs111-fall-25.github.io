@@ -23,7 +23,7 @@ const Slide = () : ReactElement => {
     </section>
     <section>
     <p className="text-usf-yellow">String Concatenation not always good</p>
-    <p>As we said on Wednesday, constantly concatenating to Strings isn't ideal. It ends up creating too many new objects in memory.</p>
+    <p>As we said on Monday, constantly concatenating to Strings isn't ideal. It ends up creating too many new objects in memory.</p>
     <p>So how can we effectively add to a string?</p>
     </section>
     <section>
@@ -36,7 +36,7 @@ const Slide = () : ReactElement => {
     </section>
     <section>
     <p className="text-usf-yellow">What</p>
-    <p>StringBuilder allows us to construct a new String by adding values into a String buffer. Additionally, using a StringBuilder, we can alos remove values from a String.</p>
+    <p>StringBuilder allows us to construct a new String by adding values into a String buffer. Additionally, using a StringBuilder, we can also remove values from a String.</p>
     </section>
     <section>
     <p className="text-usf-yellow">Why</p>
@@ -101,7 +101,7 @@ const Slide = () : ReactElement => {
     <Indent>s.append(" world");</Indent>
     <Indent>// s contains "hello world"</Indent>
     <Indent><span className="text-usf-yellow">String str = s.toString();</span></Indent>
-    <Indent><span className="text-usf-yellow">// Gives us "helo world"</span></Indent>
+    <Indent><span className="text-usf-yellow">// Gives us "hello world"</span></Indent>
     </HalfCode>
     </Row>
     </section>
@@ -129,7 +129,7 @@ const Slide = () : ReactElement => {
     <HalfCode>
     <Indent>StringBuilder s = new StringBuilder();</Indent>
     <Indent>s.append("hello world!");</Indent>
-    <Indent>s.delete(5, 11); // remvoe "world"</Indent>
+    <Indent>s.delete(5, 12); // remove "world"</Indent>
     <Indent>s.toString(); // gives us "hello"</Indent>
     </HalfCode>
     </Row>
@@ -273,7 +273,7 @@ const Slide = () : ReactElement => {
     <HalfCode>
     <Indent>int[] arr = &#123; 1, 4, 9, 16, 25 &#125;;</Indent>
     <Indent>arr[3] = 4;</Indent>
-    <Indent>System.out.println(arr[3]); // gives u 4</Indent>
+    <Indent>System.out.println(arr[3]); // gives us 4</Indent>
     </HalfCode>
     </Row>
     </section>
