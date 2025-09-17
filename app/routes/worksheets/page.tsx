@@ -18,6 +18,8 @@ import conditionalWorksheet from './sheets/conditional statements.pdf';
 import whileWorksheet from './sheets/while loops.pdf';
 import forLoopWorksheet from './sheets/for loops.pdf';
 import stringWorksheet from './sheets/strings.pdf';
+import mathOperatorsWorksheet from './sheets/math-operators.pdf';
+import arrayWorksheet from './sheets/arrays.pdf';
 
 const WorksheetsPage = () => {
   return <>
@@ -56,6 +58,11 @@ const WorksheetsPage = () => {
         <TableCell><Link to={scannerWorksheet} target="_blank"><ChevronRight size={30} /></Link></TableCell>
         </TableRow>
         <TableRow>
+        <TableCell>Math Operators</TableCell>
+        <TableCell>Detailed explanation of Math Operators in Java.</TableCell>
+        <TableCell><Link to={mathOperatorsWorksheet} target="_blank"><ChevronRight size={30} /></Link></TableCell>
+        </TableRow>
+        <TableRow>
         <TableCell>Conditional Statements</TableCell>
         <TableCell>How do we run code only when some conditions are met?</TableCell>
         <TableCell><Link to={conditionalWorksheet} target="_blank"><ChevronRight size={30} /></Link></TableCell>
@@ -74,6 +81,11 @@ const WorksheetsPage = () => {
         <TableCell>Strings</TableCell>
         <TableCell>What are strings? How do they work in Java?</TableCell>
         <TableCell><Link to={stringWorksheet} target="_blank"><ChevronRight size={30} /></Link></TableCell>
+        </TableRow>
+        <TableRow>
+        <TableCell>Arrays</TableCell>
+        <TableCell>What is an array?</TableCell>
+        <TableCell><Link to={arrayWorksheet} target="_blank"><ChevronRight size={30} /></Link></TableCell>
         </TableRow>
         </TableBody>
         </Table>
