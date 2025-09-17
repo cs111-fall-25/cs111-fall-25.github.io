@@ -128,15 +128,13 @@
     "assignments": [
       {
         "name": "4",
-        "type": "lab",
-        "hidden": true
+        "type": "lab"
       }
     ],
     "slides": [
       {
         "name": "Day 7: StringBuilder + Arrays",
-        "link": "/slides/07",
-        "hidden": true
+        "link": "/slides/07"
       }
     ]
   },
