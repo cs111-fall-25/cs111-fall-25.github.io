@@ -10,9 +10,10 @@ import {
 } from "@/components/ui/table"
 import { ChevronRight } from 'lucide-react';
 
-
 import variablesWorksheet from "./sheets/variables.pdf";
 import dataTypesWorksheet from "./sheets/data types.pdf";
+import printWorksheet from './sheets/print.pdf';
+import scannerWorksheet from './sheets/scanner.pdf';
 import conditionalWorksheet from './sheets/conditional statements.pdf';
 import whileWorksheet from './sheets/while loops.pdf';
 import forLoopWorksheet from './sheets/for loops.pdf';
@@ -43,6 +44,16 @@ const WorksheetsPage = () => {
         <TableCell>Data Types</TableCell>
         <TableCell>A more detail look into the question of "What is a Data Type" in Java.</TableCell>
         <TableCell><Link to={dataTypesWorksheet} target="_blank"><ChevronRight size={30} /></Link></TableCell>
+        </TableRow>
+        <TableRow>
+        <TableCell>Print</TableCell>
+        <TableCell>A deeper dive into printing out values and variables.</TableCell>
+        <TableCell><Link to={printWorksheet} target="_blank"><ChevronRight size={30} /></Link></TableCell>
+        </TableRow>
+        <TableRow>
+        <TableCell>Scanner (Input)</TableCell>
+        <TableCell>A review on how to take in input using Scanner</TableCell>
+        <TableCell><Link to={scannerWorksheet} target="_blank"><ChevronRight size={30} /></Link></TableCell>
         </TableRow>
         <TableRow>
         <TableCell>Conditional Statements</TableCell>
