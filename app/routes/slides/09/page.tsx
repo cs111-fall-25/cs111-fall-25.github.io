@@ -206,7 +206,7 @@ const Slide = () : ReactElement => {
     </Row>
     </section>
     <section>
-    <p>It is important to always remember that we need a returnt ype in our functions!</p>
+    <p>It is important to always remember that we need a return type in our functions!</p>
     <p>Not having one will cause the compiler to complain and cause our code to fail to compile.</p>
     </section>
     <section>
