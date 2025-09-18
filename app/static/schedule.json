@@ -141,7 +141,13 @@
   {
     "date": "9/22",
     "topics": ["2D Arrays"],
-    "assignments": [],
+    "assignments": [
+      {
+        "name": "2d-array",
+        "type": "inclass",
+        "hidden": true
+      }
+    ],
     "slides": [
       {
         "name": "Day 8: 2D Arrays",
@@ -153,7 +159,13 @@
   {
     "date": "9/24",
     "topics": ["Static Functions", "Object Oriented Programming"],
-    "assignments": [],
+    "assignments": [
+      {
+        "name": "5",
+        "type": "lab",
+        "hidden": true
+      }
+    ],
     "slides": [
       {
         "name": "Day 9: Static",

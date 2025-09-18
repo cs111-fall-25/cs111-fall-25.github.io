@@ -112,27 +112,27 @@ const SuggestedReadingPage = () => {
         </ul>
         </TableCell>
         </TableRow>
-        {/* <TableRow> */}
-        {/* <TableCell className="text-center">5</TableCell> */}
-        {/* <TableCell className="pl-5 py-5"> */}
-        {/* <p>Monday: Java Software Solutions</p> */}
-        {/* <ul className="list-disc pl-5"> */}
-        {/*   <li>Chapter 8 Arrays</li> */}
-        {/*   <li>8.1 Array Elements</li> */}
-        {/*   <li>8.2 Declaring and Using Arrays</li> */}
-        {/*   <li>8.3 Array of Objects</li> */}
-        {/*   <li>8.6 Two-Dimensional Arrays</li> */}
-        {/* </ul>  */}
-        {/* <br /> */}
-        {/* <p>Wednesday: Java Software Solutions</p> */}
-        {/* <ul className="list-disc pl-5"> */}
-        {/*   <li>Chapter 7 Object-Oriented Design</li> */}
-        {/*   <li>7.1 Software Development Activities</li> */}
-        {/*   <li>7.2 Identifying Classes and Objects</li> */}
-        {/*   <li>7.3 Static Class Members</li> */}
-        {/* </ul> */}
-        {/* </TableCell> */}
-        {/* </TableRow> */}
+        <TableRow>
+        <TableCell className="text-center">5</TableCell>
+        <TableCell className="pl-5 py-5">
+        <p>Monday: Java Software Solutions</p>
+        <ul className="list-disc pl-5">
+          <li>Chapter 8 Arrays</li>
+          <li>8.1 Array Elements</li>
+          <li>8.2 Declaring and Using Arrays</li>
+          <li>8.3 Array of Objects</li>
+          <li>8.6 Two-Dimensional Arrays</li>
+        </ul> 
+        <br />
+        <p>Wednesday: Java Software Solutions</p>
+        <ul className="list-disc pl-5">
+          <li>Chapter 7 Object-Oriented Design</li>
+          <li>7.1 Software Development Activities</li>
+          <li>7.2 Identifying Classes and Objects</li>
+          <li>7.3 Static Class Members</li>
+        </ul>
+        </TableCell>
+        </TableRow>
         {/* <TableRow> */}
         {/* <TableCell className="text-center">6</TableCell> */}
         {/* <TableCell className="pl-5 py-5"> */}
