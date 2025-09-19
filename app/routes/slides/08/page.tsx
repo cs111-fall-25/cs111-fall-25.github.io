@@ -2,10 +2,11 @@ import { Slides, SlideNavbar } from '@/components';
 import { type ReactElement } from 'react';
 import { Row, Half, HalfCode, Indent } from '../components';
 
-import slidesPdf from '@/static/slides/java.pdf';
+import slidesPdf from '@/static/slides/2d-arrays.pdf';
+import stackHeapDiagram from './img/Stack-Heap-Diagram.png';
 
 const title: string = "Day 8: 2D Arrays";
-const agenda: string[] = ["Quiz 3", "Array Review", "2D Arrays", "In class"];
+const agenda: string[] = ["Quiz 3", "Stack v Heap Review", "Array Review", "2D Arrays", "In class"];
 
 const Slide = () : ReactElement => {
   return (
@@ -25,6 +26,23 @@ const Slide = () : ReactElement => {
     <p className="text-usf-yellow">Quiz 3</p>
     </section>
     <section>
+    <p className="text-usf-yellow">Stack v Heap Review</p>
+    </section>
+    <section>
+    <p>I wanted to review the Stack and the Heap as I felt that could've been explained better last week.</p>
+    <div className="flex flex-row justify-center">
+    <img src={stackHeapDiagram} alt="Diagram of Stack and Heap" />
+    </div>
+    <aside className="notes">
+    <ul>
+    <li>Stack stores values as a LIFO structure. Primitives, local scoped variables, object pointers, and methods are pushed onto the Stack. Data stored on the Stack must have a known, fixed size.</li>
+    <li>The Heap is less organized. When we create objects, behind the scenes, a certain amount of memory is requested from the memory allocator. The heap will allocate or provide the amount of data required to store the object. It will then send the pointer to the Stack.</li>
+    <li>Pushing onto the stack is faster than allocating on the heap as the allocator must find the amount of space to allocate required for the object. It isn't as sequential as the stack is.</li>
+      <li>Additionally, accessing data on the heap is generally slower than the stack as we have to follow that pointer back to the heap. This isn't too noticeable for us, but it can take longer.</li>
+    </ul>
+    </aside>
+    </section>
+    <section>
     <p className="text-usf-yellow">Array Review</p>
     </section>
     <section>
@@ -35,7 +53,7 @@ const Slide = () : ReactElement => {
     </Half>
     <HalfCode>
     <Indent>&lt;type&gt;[] &lt;name&gt; = new &lt;type&gt;[size];</Indent>
-    <Indent>&lt;type&gt;[] &lt;name&gt; = &#123; &lt; vals &gt; &#125;;</Indent>
+    <Indent>&lt;type&gt;[] &lt;name&gt; = &#123; &lt;vals&gt; &#125;;</Indent>
     <p>For example</p>
       <Indent>int[] arr = new int[10];</Indent>
     <Indent>int[] arr = &#123; 1, 2, 3, 4, 5 &#125;;</Indent>

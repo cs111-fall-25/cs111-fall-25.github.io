@@ -2,7 +2,7 @@ import { Slides, SlideNavbar } from '@/components';
 import { type ReactElement } from 'react';
 import { Row, Half, HalfCode, Indent } from '../components';
 
-import slidesPdf from '@/static/slides/java.pdf';
+import slidesPdf from '@/static/slides/strings.pdf';
 
 const title: string = "Day 6: Strings";
 const agenda: string[] = ["Strings", "Immutability", "Length", "Concatenation", "Equals", "Compare To", "Basic String Methods", "Project 1", "Lab 3"];

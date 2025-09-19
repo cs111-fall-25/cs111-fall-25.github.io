@@ -179,13 +179,24 @@
     "topics": ["Classes", "Constructors", "Methods", "this"],
     "assignments": [],
     "slides": [
+      {
+        "name": "Day 10: OOP 1",
+        "link": "/slides/10",
+        "hidden": true
+      }
     ]
   },
   {
     "date": "10/1",
     "topics": ["Encapsulation", "Getters and Setters", "toString", "Calling Methods", "Instantiating Objects"],
     "assignments": [],
-    "slides": []
+    "slides": [
+      {
+        "name": "Day 11: OOP 2",
+        "link": "/slides/11",
+        "hidden": true
+      }
+    ]
   },
   {
     "date": "10/6",

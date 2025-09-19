@@ -2,7 +2,7 @@ import { Slides, SlideNavbar } from '@/components';
 import { type ReactElement } from 'react';
 import { Row, Half, HalfCode, Indent } from '../components';
 
-import slidesPdf from '@/static/slides/java.pdf';
+import slidesPdf from '@/static/slides/static.pdf';
 
 const title: string = "Day 9: Static";
 const agenda: string[] = ["Object Oriented Programming", "Static Methods", "Lab 5: Tic Tac Toe"];

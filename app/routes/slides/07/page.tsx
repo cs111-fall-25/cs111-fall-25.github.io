@@ -2,7 +2,7 @@ import { Slides, SlideNavbar } from '@/components';
 import { type ReactElement } from 'react';
 import { Row, Half, HalfCode, Indent } from '../components';
 
-import slidesPdf from '@/static/slides/java.pdf';
+import slidesPdf from '@/static/slides/stringbuilder-arrays.pdf';
 
 const title: string = "Day 7: StringBuilder + Arrays";
 const agenda: string[] = ["StringBuilder", "Stack v Heap", "Array", "Lab 4"];

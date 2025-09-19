@@ -28,6 +28,16 @@
     "number": "05",
     "name":"For Loops",
     "date": "9/10/2025"
+  },
+  {
+    "number": "06",
+    "name":"Strings",
+    "date": "9/15/2025"
+  },
+  {
+    "number": "07",
+    "name":"StringBuilder + Arrays",
+    "date": "9/17/2025"
   }
 
 ]
