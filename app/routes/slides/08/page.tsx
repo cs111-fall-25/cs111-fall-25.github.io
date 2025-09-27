@@ -31,7 +31,7 @@ const Slide = () : ReactElement => {
     <section>
     <p>I wanted to review the Stack and the Heap as I felt that could've been explained better last week.</p>
     <div className="flex flex-row justify-center">
-    <img src={stackHeapDiagram} alt="Diagram of Stack and Heap" />
+    <img src={stackHeapDiagram} alt="Diagram of Stack and Heap" className="h-[50vh]"/>
     </div>
     <aside className="notes">
     <ul>

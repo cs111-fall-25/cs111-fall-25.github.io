@@ -144,15 +144,13 @@
     "assignments": [
       {
         "name": "2d-arrays",
-        "type": "inclass",
-        "hidden": true
+        "type": "inclass"
       }
     ],
     "slides": [
       {
         "name": "Day 8: 2D Arrays",
-        "link": "/slides/08",
-        "hidden": true
+        "link": "/slides/08"
       }
     ]
   },
@@ -162,15 +160,13 @@
     "assignments": [
       {
         "name": "5",
-        "type": "lab",
-        "hidden": true
+        "type": "lab"
       }
     ],
     "slides": [
       {
         "name": "Day 9: Static",
-        "link": "/slides/09",
-        "hidden": true
+        "link": "/slides/09"
       }
     ]
   },

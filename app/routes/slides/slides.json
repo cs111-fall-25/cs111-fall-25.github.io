@@ -38,6 +38,17 @@
     "number": "07",
     "name":"StringBuilder + Arrays",
     "date": "9/17/2025"
+  },
+  {
+    "number": "08",
+    "name":"2D Arrays",
+    "date": "9/22/2025"
+  },
+  {
+    "number": "09",
+    "name":"Static",
+    "date": "9/24/2025"
   }
+
 
 ]
