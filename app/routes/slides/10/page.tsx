@@ -388,7 +388,7 @@ const Slide = () : ReactElement => {
   <Row>
   <Half>
   <p>Concurrently, this can help us call another constructor too!</p>
-  <p>If we use <code>this</code> as a method, it naturally will call another constructor, int hsi case, calling the constructor that takes in a single String.</p>
+  <p>If we use <code>this</code> as a method, it naturally will call another constructor, in this case, calling the constructor that takes in a single String.</p>
   </Half>
    <HalfCode>
    <Indent>public class User &#123;</Indent>

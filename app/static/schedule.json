@@ -177,8 +177,11 @@
     "slides": [
       {
         "name": "Day 10: OOP 1",
-        "link": "/slides/10",
-        "hidden": true
+        "link": "/slides/10"
+      },
+      {
+        "name": "Day 10 Lecture Recording",
+        "link": "https://usf-cs111-fall-25-assets.sfo2.cdn.digitaloceanspaces.com/videos/Day%2010%20OOP%201%20Lecture.mp4"
       }
     ]
   },
