@@ -173,7 +173,12 @@
   {
     "date": "9/29",
     "topics": ["Classes", "Constructors", "Methods", "this"],
-    "assignments": [],
+    "assignments": [
+      {
+        "name": "students",
+        "type": "inclass"
+      }
+    ],
     "slides": [
       {
         "name": "Day 10: OOP 1",
@@ -188,7 +193,18 @@
   {
     "date": "10/1",
     "topics": ["Encapsulation", "Getters and Setters", "toString", "Calling Methods", "Instantiating Objects"],
-    "assignments": [],
+    "assignments": [
+      {
+        "name": "6",
+        "type": "lab",
+        "hidden": true
+      },
+      {
+        "name": "2",
+        "type": "project",
+        "hidden": true
+      }
+    ],
     "slides": [
       {
         "name": "Day 11: OOP 2",
@@ -200,8 +216,25 @@
   {
     "date": "10/6",
     "topics":["Midterm Review"],
-    "assignments": [],
-    "slides": [],
+    "assignments": [
+      {
+        "name": "midterm-review",
+        "type": "inclass",
+        "hidden": true
+      },
+      {
+        "name": "cards",
+        "type": "inclass",
+        "hidden": true
+      }
+    ],
+    "slides": [
+      {
+        "name": "Day 12: Midterm Review",
+        "link": "/slides/12",
+        "hidden": true
+      }
+    ],
     "special": true
   },
   {
