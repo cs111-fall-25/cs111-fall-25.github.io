@@ -20,6 +20,7 @@ import forLoopWorksheet from './sheets/for loops.pdf';
 import stringWorksheet from './sheets/strings.pdf';
 import mathOperatorsWorksheet from './sheets/math-operators.pdf';
 import arrayWorksheet from './sheets/arrays.pdf';
+import twodarrayWorksheet from './sheets/2d arrays.pdf'
 
 const WorksheetsPage = () => {
   return <>
@@ -86,6 +87,11 @@ const WorksheetsPage = () => {
         <TableCell>Arrays</TableCell>
         <TableCell>What is an array?</TableCell>
         <TableCell><Link to={arrayWorksheet} target="_blank"><ChevronRight size={30} /></Link></TableCell>
+        </TableRow>
+        <TableRow>
+        <TableCell>2D Arrays</TableCell>
+        <TableCell>What is a 2D array?</TableCell>
+        <TableCell><Link to={twodarrayWorksheet} target="_blank"><ChevronRight size={30} /></Link></TableCell>
         </TableRow>
         </TableBody>
         </Table>
