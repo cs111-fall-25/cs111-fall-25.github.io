@@ -196,20 +196,17 @@
     "assignments": [
       {
         "name": "6",
-        "type": "lab",
-        "hidden": true
+        "type": "lab"
       },
       {
         "name": "2",
-        "type": "project",
-        "hidden": true
+        "type": "project"
       }
     ],
     "slides": [
       {
         "name": "Day 11: OOP 2",
-        "link": "/slides/11",
-        "hidden": true
+        "link": "/slides/11"
       }
     ]
   },
