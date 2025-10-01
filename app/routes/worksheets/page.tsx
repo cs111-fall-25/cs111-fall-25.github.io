@@ -21,7 +21,8 @@ import stringWorksheet from './sheets/strings.pdf';
 import mathOperatorsWorksheet from './sheets/math-operators.pdf';
 import arrayWorksheet from './sheets/arrays.pdf';
 import twodarrayWorksheet from './sheets/2d arrays.pdf'
-import staticFunctionsWorksheet from './sheets/static functions.pdf'
+import staticFunctionsWorksheet from './sheets/static functions.pdf';
+import oopWorksheet from './sheets/object oriented programming.pdf';
 
 const WorksheetsPage = () => {
   return <>
@@ -98,6 +99,11 @@ const WorksheetsPage = () => {
         <TableCell>Static Functions</TableCell>
         <TableCell>How do we write functions in Java without classes?</TableCell>
         <TableCell><Link to={staticFunctionsWorksheet} target="_blank"><ChevronRight size={30} /></Link></TableCell>
+        </TableRow>
+        <TableRow>
+        <TableCell>Object oriented Programming</TableCell>
+        <TableCell>What is a class? What is Object Oriented Programming?</TableCell>
+        <TableCell><Link to={oopWorksheet} target="_blank"><ChevronRight size={30} /></Link></TableCell>
         </TableRow>
         </TableBody>
         </Table>
