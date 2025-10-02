@@ -1,10 +1,9 @@
-import { Slides, SlideNavbar, TableHead, TableHeader } from '@/components';
+import { Slides, SlideNavbar } from '@/components';
 import { type ReactElement } from 'react';
 import { Row, Half, HalfCode, Indent } from '../components';
 
-import slidesPdf from '@/static/slides/java.pdf';
+import slidesPdf from '@/static/slides/oop1.pdf';
 import accessModifiers from "./img/Access-Modifiers.png"
-import { Table } from 'lucide-react';
 
 const title: string = "Day 10: OOP 1";
 const agenda: string[] = ["Reminder of Today", "Object Oriented Programming Recap", "Class", "Field Variables/Members", "Constructor", "Methods", "This", "Quiz 4", "In Class"];
