@@ -133,28 +133,28 @@ const SuggestedReadingPage = () => {
         </ul>
         </TableCell>
         </TableRow>
-        {/* <TableRow> */}
-        {/* <TableCell className="text-center">6</TableCell> */}
-        {/* <TableCell className="pl-5 py-5"> */}
-        {/* <p>Monday and Wednesday: Java Software Solutions</p> */}
-        {/* <ul className="list-disc pl-5"> */}
-        {/* <li>Chapter 4: Writing Classes</li> */}
-        {/* <li>4.1 Classes and Objects Revisited</li> */}
-        {/* <li>4.2 Anatomy of a Class</li> */}
-        {/* <li>4.3 Encapsulation</li> */}
-        {/* <li>4.4 Anatomy of a Method</li> */}
-        {/* <li>4.5 Constructors Revisited</li> */}
-        {/* <li>7.4 Class Relationships</li> */}
-        {/* <li>7.7 Method Design</li> */}
-        {/* </ul> */}
-        {/* </TableCell> */}
-        {/* </TableRow> */}
-        {/* <TableRow> */}
-        {/* <TableCell className="text-center">7</TableCell> */}
-        {/* <TableCell className="pl-5 py-5"> */}
-        {/* <p>No reading; Midterm Prep</p> */}
-        {/* </TableCell> */}
-        {/* </TableRow> */}
+        <TableRow>
+        <TableCell className="text-center">6</TableCell>
+        <TableCell className="pl-5 py-5">
+        <p>Monday and Wednesday: Java Software Solutions</p>
+        <ul className="list-disc pl-5">
+        <li>Chapter 4: Writing Classes</li>
+        <li>4.1 Classes and Objects Revisited</li>
+        <li>4.2 Anatomy of a Class</li>
+        <li>4.3 Encapsulation</li>
+        <li>4.4 Anatomy of a Method</li>
+        <li>4.5 Constructors Revisited</li>
+        <li>7.4 Class Relationships</li>
+        <li>7.7 Method Design</li>
+        </ul>
+        </TableCell>
+        </TableRow>
+        <TableRow>
+        <TableCell className="text-center">7</TableCell>
+        <TableCell className="pl-5 py-5">
+        <p>No reading; Midterm Prep</p>
+        </TableCell>
+        </TableRow>
         </TableBody>
         </Table>
         </div>
