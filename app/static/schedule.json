@@ -218,11 +218,6 @@
         "name": "midterm-review",
         "type": "inclass",
         "hidden": true
-      },
-      {
-        "name": "cards",
-        "type": "inclass",
-        "hidden": true
       }
     ],
     "slides": [
