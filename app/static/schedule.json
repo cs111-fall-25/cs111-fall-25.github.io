@@ -216,15 +216,13 @@
     "assignments": [
       {
         "name": "midterm-review",
-        "type": "inclass",
-        "hidden": true
+        "type": "inclass"
       }
     ],
     "slides": [
       {
         "name": "Day 12: Midterm Review",
-        "link": "/slides/12",
-        "hidden": true
+        "link": "/slides/12"
       }
     ],
     "special": true
