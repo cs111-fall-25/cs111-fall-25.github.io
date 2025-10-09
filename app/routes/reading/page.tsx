@@ -155,6 +155,50 @@ const SuggestedReadingPage = () => {
         <p>No reading; Midterm Prep</p>
         </TableCell>
         </TableRow>
+        <TableRow>
+        <TableCell className="text-center">8</TableCell>
+        <TableCell className="pl-5 py-5">
+        <p>Wednesday:</p>
+        <ul className="list-disc pl-5">
+          <li>
+          <ExternalLink href="https://www.geeksforgeeks.org/c/difference-between-call-by-value-and-call-by-reference/" name="Pass by Value v Pass by Reference" />
+          </li>
+          <li>
+          <ExternalLink href="https://www.geeksforgeeks.org/java/method-class-hashcode-method-in-java/" name="Hashcode" />
+          </li>
+          <li>
+          <ExternalLink href="https://www.geeksforgeeks.org/java/static-methods-vs-instance-methods-in-java/" name="Static v Instance Methods" />
+          </li>
+          <li>
+          <ExternalLink href="https://www.w3schools.com/java/java_methods_overloading.asp" name="Method Overloading" />
+          </li>
+        </ul>
+        </TableCell>
+        </TableRow>
+        {/* <TableRow> */}
+        {/* <TableCell className="text-center">9</TableCell> */}
+        {/* <TableCell className="pl-5 py-5"> */}
+        {/* <p>Monday:</p> */}
+        {/* <ul className="list-disc pl-5"> */}
+        {/*   <li> */}
+        {/*   <ExternalLink href="https://www.geeksforgeeks.org/java/java-checked-vs-unchecked-exceptions/" name="Checked v Unchecked Exceptions" /> */}
+        {/*   </li> */}
+        {/*   <li> */}
+        {/*   <ExternalLink href="https://boardmix.com/knowledge/pseudocode-flowchart/" name="Flowchart Pseudocode" /> */}
+        {/*   </li> */}
+        {/*   </ul> */}
+        {/*   <br /> */}
+        {/*   <p>Wednesday</p> */}
+        {/*   <ul className="list-disc pl-5"> */}
+        {/*   <li> */}
+        {/*   <ExternalLink href="https://www.geeksforgeeks.org/system-design/unified-modeling-language-uml-introduction/" name="UML" /> */}
+        {/*   </li> */}
+        {/*   <li> */}
+        {/*   <ExternalLink href="https://www.geeksforgeeks.org/system-design/unified-modeling-language-uml-class-diagrams/" name="UML Class Diagrams" /> */}
+        {/*   </li> */}
+        {/* </ul> */}
+        {/* </TableCell> */}
+        {/* </TableRow> */}
         </TableBody>
         </Table>
         </div>
