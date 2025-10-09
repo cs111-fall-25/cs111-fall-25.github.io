@@ -231,7 +231,12 @@
     "date": "10/8",
     "topics":["Midterm"],
     "assignments": [],
-    "slides": [],
+    "slides": [
+      {
+        "name": "Day 13: Midterm",
+        "link": "/slides/13"
+      }
+    ],
     "special": true
   },
   {
@@ -244,8 +249,20 @@
   {
     "date": "10/15",
     "topics":["Pass by Value v Pass by Reference", "Static v Instance", "Method Overloading", "hashcode", "equals"],
-    "assignments": [],
-    "slides": []
+    "assignments": [
+      {
+        "name": "7",
+        "type": "lab",
+        "hidden": true
+      }
+    ],
+    "slides": [
+      {
+        "name": "Day 14: More Methods",
+        "link": "/slides/14",
+        "hidden": true
+      }
+    ]
   },
   {
     "date": "10/20",

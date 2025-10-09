@@ -53,5 +53,25 @@
     "number": "10",
     "name":"OOP 1",
     "date": "9/29/2025"
+  },
+  {
+    "number": "11",
+    "name":"OOP 2",
+    "date": "10/1/2025"
+  },
+  {
+    "number": "12",
+    "name":"Midterm Review",
+    "date": "10/6/2025"
+  },
+  {
+    "number": "13",
+    "name":"Midterm",
+    "date": "10/8/2025"
+  },
+  {
+    "number": "14",
+    "name":"More Methods",
+    "date": "10/14/2025"
   }
 ]
