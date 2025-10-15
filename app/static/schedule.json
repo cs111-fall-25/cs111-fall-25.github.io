@@ -252,23 +252,33 @@
     "assignments": [
       {
         "name": "7",
-        "type": "lab",
-        "hidden": true
+        "type": "lab"
       }
     ],
     "slides": [
       {
         "name": "Day 14: More Methods",
-        "link": "/slides/14",
-        "hidden": true
+        "link": "/slides/14"
       }
     ]
   },
   {
     "date": "10/20",
     "topics":["Exception Handling", "Program Design", "Flowchart Pseudocode"],
-    "assignments": [],
-    "slides": []
+    "assignments": [
+      {
+        "name": "pseudocode",
+        "type": "inclass",
+        "hidden": true
+      }
+    ],
+    "slides": [
+      {
+        "name": "Day 15: Exceptional Programming",
+        "link": "/slides/15",
+        "hidden": true
+      }
+    ]
   },
   {
     "date": "10/22",
