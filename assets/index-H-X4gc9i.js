@@ -1,0 +1,1 @@
+import{B as e,q as t}from"./index-CLLJqTva.js";import{M as o}from"./index-BMu1d4kC.js";const n=()=>{const s=e();return t.jsx("button",{className:"pr-5 text-usf-yellow",onClick:()=>s(-1),children:t.jsx(o,{size:50})})};export{n as B};
