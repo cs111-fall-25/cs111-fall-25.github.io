@@ -1,10 +1,13 @@
 import { Slides, SlideNavbar } from '@/components';
-import { useEffect, useState, type ReactElement } from 'react';
+import {  type ReactElement } from 'react';
 import { Row, Half, HalfCode, Indent } from '../components';
 import pseudocodeExample from './img/pseudocode example.jpg';
-import mermaid from 'mermaid';
-    // import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
 import slidesPdf from '@/static/slides/java.pdf';
+import startNode from './img/start-node.png';
+import downArrow from './img/down-arrow.png';
+import decisionNode from './img/decision-node.png';
+import processNode from './img/process-node.png';
+import outputNode from './img/output-node.png';
 
 
 const Shape = ({ shape, text }: { shape: string, text?: string }) : ReactElement => {
@@ -17,22 +20,6 @@ const title: string = "Day 15: Exceptional Design";
 const agenda: string[] = ["Quiz 6", "Exception Handling", "Program Design", "In Class: Pseudocode"];
 
 const Slide = () : ReactElement => {
-  // const diagramify = async (id: string, mermaid_code: string) => {
-  //   const { svg } = await mermaid.render(id, mermaid_code);
-  //   // const { svg } = await mermaid.run();
-  //   // return <div dangerouslySetInnerHTML={{ __html: svg }}></div>;
-  //   return svg;
-  // }
-  // const [oval, setOval] = useState<string>("");
-  // const [downArrow, setDownArrow] = useState<string>("");
-  // useEffect(() => {
-  //   diagramify("oval", "flowchart LR;oval((Start/End))").then((svg) => {
-  //     setOval(svg);
-  //     console.info(svg);
-  //   });
-  //   diagramify("downArrow", "flowchart LR;A-->B").then((svg) => setDownArrow(svg));
-  // }, [oval.length > 0, downArrow.length > 0]);
-
   return (
     <>
     <SlideNavbar title={title} downloadHref={slidesPdf} />
@@ -280,7 +267,7 @@ const Slide = () : ReactElement => {
     <p>Often to denote a program start or end point.</p>
     </Half>
     <Half>
-    <Shape shape={"oval"} text={"Start/End"} />
+    <img src={startNode} alt={"Start/End"} />
     </Half>
     </Row>
     </section>
@@ -291,7 +278,7 @@ const Slide = () : ReactElement => {
     <p>Denotes the direction of flow.</p>
     </Half>
     <Half>
-    <Shape shape="down arrow" />
+    <img src={downArrow} alt={"Down arrow"} />
     </Half>
     </Row>
     </section>
@@ -302,7 +289,7 @@ const Slide = () : ReactElement => {
     <p>Denotes the input or output of data (user input, console output)</p>
     </Half>
     <Half>
-    <Shape shape="parallelogram" text="Output x"/>
+    <img src={outputNode} alt={"Output x"} />
     </Half>
     </Row>
     </section>
@@ -313,7 +300,7 @@ const Slide = () : ReactElement => {
     <p>Denotes an operation that manipulates data. This can be changing the value of a variable or manipulating it.</p>
     </Half>
     <Half>
-    <Shape shape="rectangle" text="x = 1"/>
+    <img src={processNode} alt={"x = 1"} />
     </Half>
     </Row>
     </section>
@@ -324,7 +311,7 @@ const Slide = () : ReactElement => {
     <p>Denotes a condition or decision made that redirects the flow of data based on the conditional outcome (if statement)</p>
     </Half>
     <Half>
-    <Shape shape="rhombus" text="x &lt; 3?"/>
+    <img src={decisionNode} alt={"x < 3?"} />
     </Half>
     </Row>
     </section>
