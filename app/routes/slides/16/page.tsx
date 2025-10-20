@@ -112,7 +112,58 @@ const Slide = () : ReactElement => {
     </section>
     <section>
     <p className="text-usf-yellow">Buffered Reader</p>
-    {/* TODO */}
+    </section>
+    <section>
+    <p>With a <code>BufferedReader</code>, the contents of a file are read into a buffer (partially rather than the whole document at once), leading to a more efficient way to read a file.</p>
+    </section>
+    <section>
+    <Row>
+    <Half>With a BufferedReader, we start by reading the file using a <code>FileReader</code>. We then take the object and pass that into our <code>BufferedReader</code> constructor. We can then read the contents from the <code>reader</code> object.</Half>
+    <HalfCode>
+    <Indent>FileReader file = new FileReader(filename);</Indent>
+    <Indent>BufferedReader reader = new BufferedReader(file);</Indent>
+    <Indent>System.out.println(reader.readLine());</Indent>
+    </HalfCode>
+    </Row>
+    </section>
+    <section>
+    <Row>
+    <Half>
+    <p>Because the BufferedReader can throw an <code>IOException</code>, we must wrap the reader in a <code>try-catch</code></p>
+    </Half>
+    <HalfCode>
+    <Indent>try &#123;</Indent>
+    <Indent space={1}>FileReader file = new FileReader(filename);</Indent>
+    <Indent space={1}>BufferedReader reader = new BufferedReader(file);</Indent>
+    <Indent>&#125; catch(IOException e) &#123;</Indent>
+    <Indent space={1}>System.out.println("File not found!");</Indent>
+    <Indent>&#125;</Indent>
+    </HalfCode>
+    </Row>
+    </section>
+    <section>
+    <Row>
+    <Half>
+    <p>We can then read the line by setting the value in a while loop and checking if it isn't null.</p>
+    </Half>
+    <HalfCode>
+    <Indent>try &#123;</Indent>
+    <Indent space={1}>FileReader file = new FileReader(filename);</Indent>
+    <Indent space={1}>BufferedReader reader = new BufferedReader(file);</Indent>
+    <Indent space={1}>StringBuilder contents = new StringBuilder();</Indent>
+    <Indent space={1}>String line = "";</Indent>
+    <Indent space={1}>while(line != null) &#123;</Indent>
+    <Indent space={2}>line = reader.readLine();</Indent>
+    <Indent space={2}>if (line == null) &#123;</Indent>
+    <Indent space={3}>break;</Indent>
+    <Indent space={2}>&#125;</Indent>
+    <Indent space={2}>contents.append(line);</Indent>
+    <Indent space={1}>&#125;</Indent>
+    <Indent>&#125; catch(IOException e) &#123;</Indent>
+    <Indent space={1}>System.out.println("File not found!");</Indent>
+    <Indent>&#125;</Indent>
+    </HalfCode>
+    </Row>
     </section>
     <section>
     <p className="text-usf-yellow">UML</p>
@@ -192,7 +243,17 @@ const Slide = () : ReactElement => {
     <p className="text-usf-yellow">Lab 8</p>
     </section>
     <section>
+    <p>
+    This lab will run differently. There are two parts to this lab. The first will require you to work with a partner or a trio to solve a problem together.
+      </p>
+    <p>The second part lies in Lab 9, where you'll code out your implementation yourself.</p>
+    </section>
+    <section>
     <p className="text-usf-yellow">Lab 9</p>
+    </section>
+    <section>
+    <p>Once you finish the parts for Lab 8 with your partner/team, work on Lab 9 individually. You will implement what you proposed in Lab 8. If there are elements to it that you don't think you can do, that's fine. Just do the best you can, or pivot to an implementation that you're capable of doing.</p>
+    <p>Everyone should work on this part themselves.</p>
     </section>
     </Slides>
     </>
