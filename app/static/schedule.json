@@ -268,15 +268,17 @@
     "assignments": [
       {
         "name": "pseudocode",
-        "type": "inclass",
-        "hidden": true
+        "type": "inclass"
       }
     ],
     "slides": [
       {
         "name": "Day 15: Exceptional Programming",
-        "link": "/slides/15",
-        "hidden": true
+        "link": "/slides/15"
+      },
+      {
+        "name": "Diagram Website",
+        "link": "https://app.diagrams.net/"
       }
     ]
   },
