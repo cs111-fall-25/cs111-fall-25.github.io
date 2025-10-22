@@ -277,7 +277,7 @@
         "link": "/slides/15"
       },
       {
-        "name": "Diagram Website",
+        "name": "Diagram Tool",
         "link": "https://app.diagrams.net/"
       }
     ]
@@ -285,8 +285,22 @@
   {
     "date": "10/22",
     "topics":["Program Design", "UML Pseudocode", "File I/O", "Problem Posing Lab"],
-    "assignments": [],
-    "slides": []
+    "assignments": [
+      {
+        "name": "8",
+        "type": "lab"
+      },
+      {
+        "name": "9",
+        "type": "lab"
+      }
+    ],
+    "slides": [
+      {
+        "name": "Day 16: Files and UML",
+        "link": "/slides/16"
+      }
+    ]
   },
   {
     "date": "10/27",
