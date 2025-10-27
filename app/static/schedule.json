@@ -305,14 +305,44 @@
   {
     "date": "10/27",
     "topics":["Inheritance", "extends keyword", "Program Design", "File Reading", "Super", "eclipse"],
-    "assignments": [],
-    "slides": []
+    "assignments": [
+      {
+        "name": "media-library",
+        "type": "inclass"
+      },
+      {
+        "name": "3",
+        "type": "project"
+      }
+    ],
+    "slides": [
+      {
+        "name": "Day 17: Inheritance",
+        "link": "/slides/17"
+      },
+      {
+        "name": "Eclipse Download",
+        "link": "https://www.eclipse.org/downloads/"
+      }
+    ]
   },
   {
     "date": "10/29",
     "topics":["Inheritance", "super keyword"],
-    "assignments": [],
-    "slides": []
+    "assignments": [
+      {
+        "name": "10",
+        "type": "lab",
+        "hidden": true
+      }
+    ],
+    "slides": [
+      {
+        "name": "Day 18: Inheritance cont.",
+        "link": "/slides/18",
+        "hidden": true
+      }
+    ]
   },
   {
     "date": "11/3",
