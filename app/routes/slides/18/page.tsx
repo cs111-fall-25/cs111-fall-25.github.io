@@ -5,7 +5,7 @@ import { Row, Half, HalfCode, Indent } from '../components';
 import slidesPdf from '@/static/slides/java.pdf';
 
 const title: string = "Day 18: Inheritance Continued";
-const agenda: string[] = ["Inheritance review", "Super review", "File Reading review", "Extra Credit 1", "Lab 10"];
+const agenda: string[] = ["Inheritance review", "Super review", "File Reading review", "Real Talk", "Extra Credit 1", "Lab 10"];
 
 const Slide = () : ReactElement => {
   return (
@@ -176,6 +176,22 @@ const Slide = () : ReactElement => {
     </Row>
     </section>
     <section>
+    <p className="text-usf-yellow">Real Talk</p>
+    <aside className="notes">
+    <ul>
+      <li>Struggling; probably shouldn't be leaving class early</li>
+      <li>If you are, either stay and ask for help from me or from your TA</li>
+      <li>Aware no one is coming into anyone's office hours.</li>
+      <li>All adults; make the right choice for yourself</li>
+      <li>If you didn't pass Midterm, you need to pass the final to at least end at a C.</li>
+      <li>So, make the right choice for yourself.</li>
+      <li>you're in university, I'm a resource to help but I'm not going to decide for you what's best.</li>
+      <li>You all have potential to pass still, but you know who you are. If you're struggling, either start coming into office hours or stay and ask questions.</li> 
+      <li>I do care about how you're all doing, but I can't help if you aren't asking for help. I would love to see you all around campus, but I don't want you to end up having to repeat this class with me later. I'd rather pass you all and see you do well going forward.</li>
+    </ul>
+    </aside>
+    </section>
+    <section>
     <p className="text-usf-yellow">Extra Credit 1</p>
     </section>
     <section>
@@ -185,7 +201,6 @@ const Slide = () : ReactElement => {
     <li>Propose a solution</li>
     <li>Write a fix</li>
     <li>You have until Friday Nov, 7 at midnight to finish this</li>
-    {/* TODO replace XXX with deadline */}
     </ul>
     <br />
     <ul>

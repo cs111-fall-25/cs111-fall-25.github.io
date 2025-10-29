@@ -332,15 +332,17 @@
     "assignments": [
       {
         "name": "10",
-        "type": "lab",
-        "hidden": true
+        "type": "lab"
+      },
+      {
+        "name": "extra-credit-1",
+        "type": "inclass"
       }
     ],
     "slides": [
       {
         "name": "Day 18: Inheritance cont.",
-        "link": "/slides/18",
-        "hidden": true
+        "link": "/slides/18"
       }
     ]
   },
