@@ -102,7 +102,7 @@ const Slide = () : ReactElement => {
     <section>
     <p>Will be on all of the concepts we have covered <strong>after</strong> the midterm.</p>
     <ul>
-    {["Classes", "Objects", "static", "instance", "equals", "abstract", "upcasting/downcasting", "ArrayList", "LinkedList", "HashSet", "HashMap", "Recursion", "Sorting", "Searching"].map((val: string, i: number) => <li key={i}>{val}</li>)}
+    {["Classes", "Objects", "static", "instance", "equals", "Pseudocode", "UML", "abstract", "debugging", "method overloading", "upcasting/downcasting", "File Reading", "File Writing", "ArrayList", "LinkedList", "HashSet", "HashMap", "Recursion", "Basic Sorting", "Basic Searching"].map((val: string, i: number) => <li key={i}>{val}</li>)}
     </ul>
     </section>
     <section>
