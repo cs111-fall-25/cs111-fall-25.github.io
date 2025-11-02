@@ -349,14 +349,38 @@
   {
     "date": "11/3",
     "topics":["Debugging", "Enums"],
-    "assignments": [],
-    "slides": []
+    "assignments": [
+      {
+        "name": "debugging",
+        "type": "inclass",
+        "hidden": true
+      }
+    ],
+    "slides": [
+      {
+        "name": "Day 19: Debugging",
+        "link": "/slides/19",
+        "hidden": true
+      }
+    ]
   },
   {
     "date": "11/5",
     "topics":["File Output", "File Writer", "Inheritance", "Upcasting v Downcasting"],
-    "assignments": [],
-    "slides": []
+    "assignments": [
+      {
+        "name": "11",
+        "type": "lab",
+        "hidden": true
+      }
+    ],
+    "slides": [
+      {
+        "name": "Day 20: Inherited Casting",
+        "link": "/slides/20",
+        "hidden": true
+      }
+    ]
   },
   {
     "date": "11/10",

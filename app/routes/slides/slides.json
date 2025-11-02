@@ -78,5 +78,20 @@
     "number": "15",
     "name": "Exceptional Programming",
     "date": "10/20/2025"
+  },
+  {
+    "number": "16",
+    "name": "File I/O and UML",
+    "date": "10/22/2025"
+  },
+  {
+    "number": "17",
+    "name": "Inheritance",
+    "date": "10/27/2025"
+  },
+  {
+    "number": "18",
+    "name": "Inheritance cont.",
+    "date": "10/29/2025"
   }
 ]
