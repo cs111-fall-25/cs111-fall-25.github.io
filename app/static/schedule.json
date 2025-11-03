@@ -352,15 +352,13 @@
     "assignments": [
       {
         "name": "debugging",
-        "type": "inclass",
-        "hidden": true
+        "type": "inclass"
       }
     ],
     "slides": [
       {
         "name": "Day 19: Debugging",
-        "link": "/slides/19",
-        "hidden": true
+        "link": "/slides/19"
       }
     ]
   },

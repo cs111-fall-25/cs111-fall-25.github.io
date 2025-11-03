@@ -101,9 +101,15 @@ const Slide = () : ReactElement => {
     </section>
     <section>
     <p>Will be on all of the concepts we have covered <strong>after</strong> the midterm.</p>
-    <ul>
-    {["Classes", "Objects", "static", "instance", "equals", "Pseudocode", "UML", "abstract", "debugging", "method overloading", "upcasting/downcasting", "File Reading", "File Writing", "ArrayList", "LinkedList", "HashSet", "HashMap", "Recursion", "Basic Sorting", "Basic Searching"].map((val: string, i: number) => <li key={i}>{val}</li>)}
+    <div className="flex justify-around">
+
+    <ul className="text-[20pt] flex flex-wrap">
+    {["Classes", "Objects", "static", "instance", "equals", "Pseudocode", "UML", "abstract", "debugging", "method overloading", "Upcasting"].map((val: string, i: number) => <li key={i}>{val}</li>)}
     </ul>
+    <ul className="text-[20pt] flex flex-wrap">
+    {["Downcasting", "File Reading", "File Writing", "ArrayList", "LinkedList", "HashSet", "HashMap", "Recursion", "Basic Sorting", "Basic Searching"].map((val: string, i: number) => <li key={i}>{val}</li>)}
+    </ul>
+    </div>
     </section>
     <section>
     <p className="text-usf-yellow">Debugging</p>
