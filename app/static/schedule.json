@@ -368,15 +368,13 @@
     "assignments": [
       {
         "name": "11",
-        "type": "lab",
-        "hidden": true
+        "type": "lab"
       }
     ],
     "slides": [
       {
         "name": "Day 20: Inherited Casting",
-        "link": "/slides/20",
-        "hidden": true
+        "link": "/slides/20"
       }
     ]
   },
