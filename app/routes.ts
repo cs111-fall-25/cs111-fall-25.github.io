@@ -36,4 +36,6 @@ export default [
   route("/slides/18", "routes/slides/18/page.tsx"),
   route("/slides/19", "routes/slides/19/page.tsx"),
   route("/slides/20", "routes/slides/20/page.tsx"),
+  route("/slides/21", "routes/slides/21/page.tsx"),
+  route("/slides/22", "routes/slides/22/page.tsx"),
 ] satisfies RouteConfig;

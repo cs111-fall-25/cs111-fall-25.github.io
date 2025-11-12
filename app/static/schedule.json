@@ -381,14 +381,34 @@
   {
     "date": "11/10",
     "topics":["Wrapper Classes", "HashSet", "HashMap"],
-    "assignments": [],
-    "slides": []
+    "assignments": [
+      {
+        "name": "collections-1",
+        "type": "inclass"
+      }
+    ],
+    "slides": [
+      {
+        "name": "Day 21: HashSet/HashMap",
+        "link": "/slides/21"
+      }
+    ]
   },
   {
     "date": "11/12",
     "topics":["HashSet", "HashMap"],
-    "assignments": [],
-    "slides": []
+    "assignments": [
+      {
+        "name": "12",
+        "type": "lab"
+      }
+    ],
+    "slides": [
+      {
+        "name": "Day 22: HashSet/HashMap cont.",
+        "link": "/slides/22"
+      }
+    ]
   },
   {
     "date": "11/17",
