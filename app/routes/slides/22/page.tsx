@@ -81,6 +81,8 @@ const Slide = () : ReactElement => {
     </section>
     <section>
     <p className="text-usf-yellow">Lab 12: File Word Count</p>
+    <p className="text-usf-yellow">Project 3</p>
+    <p>Work on either. Both are due on Friday.</p>
     </section>
     </Slides>
     </>
