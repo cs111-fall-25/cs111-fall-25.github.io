@@ -87,10 +87,6 @@ const Slide = () : ReactElement => {
     <p className="text-usf-yellow">Final Project</p>
     </section>
     <section>
-    <p className="text-usf-yellow">Final Project</p>
-    <p>Just Kidding. I'm dropping it.</p>
-    </section>
-    <section>
     <p className="text-usf-yellow">Lab 13: BlackJack</p>
     </section>
     </Slides>

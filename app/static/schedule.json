@@ -413,8 +413,22 @@
   {
     "date": "11/17",
     "topics":["ArrayList", "LinkedList"],
-    "assignments": [],
-    "slides": []
+    "assignments": [
+      {
+        "name": "collections-2",
+        "type": "inclass"
+      }
+    ],
+    "slides": [
+      {
+        "name": "Day 23: Lists",
+        "link": "/slides/23"
+      },
+      {
+        "name": "Day 23 Recording",
+        "link": "https://usf-cs111-fall-25-assets.sfo2.cdn.digitaloceanspaces.com/videos/Day%2023%20Lists%20Lecture.mp4"
+      }
+    ]
   },
   {
     "date": "11/19",

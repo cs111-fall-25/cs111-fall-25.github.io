@@ -70,7 +70,7 @@ const Slide = () : ReactElement => {
     <Indent>users.containsKey("John"); &#8594; true</Indent>
     <Indent>users.containsKey("Jane"); &#8594; false</Indent>
     </section>
-    <section>
+    <section className="text-[16pt]">
       <p className="text-usf-yellow">Sign up for Project 3 Interactive Grading</p>
       <p>Same as Project 1. Project 3 due on Friday, 11/14. Next Monday, 11/17 will be Code Reviews.</p>
       <p>Please head to Canvas to sign up for the Code Reviews. To ensure you meet with both myself and the TA throughout the Semester, please sign up for the person you didn't see last time.</p>
