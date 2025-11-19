@@ -433,20 +433,59 @@
   {
     "date": "11/19",
     "topics":["ArrayList", "LinkedList"],
-    "assignments": [],
-    "slides": []
+    "assignments": [
+      {
+        "name": "13",
+        "type": "lab"
+      }
+    ],
+    "slides": [
+      {
+        "name": "Day 24: Lists Recap",
+        "link": "/slides/24"
+      }
+    ]
   },
   {
     "date": "11/24",
     "topics":["Recursion"],
-    "assignments": [],
-    "slides": []
+    "assignments": [
+      {
+        "name": "Recursion",
+        "type": "inclass",
+        "hidden": true
+      }
+    ],
+    "slides": [
+      {
+        "name": "Day 25: Recursion",
+        "link": "/slides/25",
+        "hidden": true
+      }
+    ]
   },
   {
     "date": "11/26",
     "topics":["Command Line Arguments", "Recorded Lesson due to Day-before-Thanksgiving"],
-    "assignments": [],
-    "slides": []
+    "assignments": [
+      {
+        "name": "14",
+        "type": "lab",
+        "hidden": true
+      }
+    ],
+    "slides": [
+      {
+        "name": "Day 26: Command Line Arguments",
+        "link": "/slides/26",
+        "hidden": true
+      },
+      {
+        "name": "Day 26 Lecture",
+        "link": "#",
+        "hidden": true
+      }
+    ]
   },
   {
     "date": "12/1",
