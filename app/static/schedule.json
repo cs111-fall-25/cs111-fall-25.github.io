@@ -452,15 +452,13 @@
     "assignments": [
       {
         "name": "Recursion",
-        "type": "inclass",
-        "hidden": true
+        "type": "inclass"
       }
     ],
     "slides": [
       {
         "name": "Day 25: Recursion",
-        "link": "/slides/25",
-        "hidden": true
+        "link": "/slides/25"
       }
     ]
   },
@@ -482,7 +480,7 @@
       },
       {
         "name": "Day 26 Lecture",
-        "link": "#",
+        "link": "https://usf-cs111-fall-25-assets.sfo2.cdn.digitaloceanspaces.com/videos/Day%2026%20Lecture.mp4",
         "hidden": true
       }
     ]
@@ -501,8 +499,15 @@
     "special": true
   },
   {
-    "date": "12/5-12/11",
-    "topics":["Final Exam (Actual Date TBD)"],
+    "date": "12/8",
+    "topics":["Final Exam (Section 2)"],
+    "assignments": [],
+    "slides": [],
+    "special": true
+  },
+  {
+    "date": "12/10",
+    "topics":["Final Exam (Section 1)"],
     "assignments": [],
     "slides": [],
     "special": true
