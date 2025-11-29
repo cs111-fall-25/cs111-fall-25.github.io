@@ -468,28 +468,37 @@
     "assignments": [
       {
         "name": "14",
-        "type": "lab",
-        "hidden": true
+        "type": "lab"
       }
     ],
     "slides": [
       {
         "name": "Day 26: Command Line Arguments",
-        "link": "/slides/26",
-        "hidden": true
+        "link": "/slides/26"
       },
       {
         "name": "Day 26 Lecture",
-        "link": "https://usf-cs111-fall-25-assets.sfo2.cdn.digitaloceanspaces.com/videos/Day%2026%20Lecture.mp4",
-        "hidden": true
+        "link": "https://usf-cs111-fall-25-assets.sfo2.cdn.digitaloceanspaces.com/videos/Day%2026%20Lecture.mp4"
       }
     ]
   },
   {
     "date": "12/1",
     "topics":["Search Algorithms", "Sort Algorithms"],
-    "assignments": [],
-    "slides": []
+    "assignments": [
+      {
+        "name": "Algorithms",
+        "type": "inclass",
+        "hidden": true
+      }
+    ],
+    "slides": [
+      {
+        "name": "Day 27: Algorithms",
+        "link": "/slides/27",
+        "hidden": true
+      }
+    ]
   },
   {
     "date": "12/3",
