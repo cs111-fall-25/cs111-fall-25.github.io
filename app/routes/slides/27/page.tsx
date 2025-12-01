@@ -183,6 +183,19 @@ const Slide = () : ReactElement => {
     </Row>
     </section>
     <section>
+    <p className="text-usf-yellow">Reminder of the Final</p>
+    <Row>
+    <Half>
+    <p>Section 1: Wednesday 12/10 at 10-12PM; LS 307</p>
+    </Half>
+    <Half>
+    <p>Section 2: Monday 12/8 at 3-5PM; LS G12</p>
+    </Half>
+    </Row>
+    <p className="text-[20pt]">Come to your normal section. Do not come to both.</p>
+    <p className="text-[20pt]">You will be given the reference sheet printed out for you. You may also bring a single double-sided A4/8x11 sheet of paper as a cheat sheet.</p>
+    </section>
+    <section>
     <p className="text-usf-yellow">In Class: Algorithms</p>
     </section>
     </Slides>

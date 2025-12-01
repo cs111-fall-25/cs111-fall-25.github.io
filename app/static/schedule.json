@@ -488,15 +488,17 @@
     "assignments": [
       {
         "name": "Algorithms",
-        "type": "inclass",
-        "hidden": true
+        "type": "inclass"
       }
     ],
     "slides": [
       {
         "name": "Day 27: Algorithms",
-        "link": "/slides/27",
-        "hidden": true
+        "link": "/slides/27"
+      },
+      {
+        "name": "Final Reference Sheet",
+        "link": "/assets/Final-Reference.pdf"
       }
     ]
   },
@@ -509,14 +511,14 @@
   },
   {
     "date": "12/8",
-    "topics":["Final Exam (Section 2)"],
+    "topics":["Final Exam (Section 2) 3-5PM LS G12"],
     "assignments": [],
     "slides": [],
     "special": true
   },
   {
     "date": "12/10",
-    "topics":["Final Exam (Section 1)"],
+    "topics":["Final Exam (Section 1) 10-12AM LS 307"],
     "assignments": [],
     "slides": [],
     "special": true
